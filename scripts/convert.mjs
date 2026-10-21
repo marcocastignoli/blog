@@ -191,9 +191,15 @@ function slugOf(path) {
 const report = [];
 const missingMedia = new Set();
 
+const usedNames = new Set();
+
 async function writePost(meta, markdown) {
   const date = meta.date.slice(0, 10);
-  const file = join(ROOT, "content/posts", `${date}-${slugOf(meta.path)}${meta.lang === "en" && meta.translationKey ? "" : ""}.md`);
+  // Translations may share a slug (hairesis): the second one gets its language as a suffix.
+  let name = `${date}-${slugOf(meta.path)}`;
+  if (usedNames.has(name)) name += `-${meta.lang}`;
+  usedNames.add(name);
+  const file = join(ROOT, "content/posts", `${name}.md`);
   await writeFile(file, `${frontMatter(meta)}\n\n${markdown}`);
   report.push(`${meta.lang} ${meta.category.padEnd(18)} ${meta.path}`);
   for (const m of markdown.matchAll(/\]\((\/[^)]+)\)|src="(\/[^"]+)"/g)) {

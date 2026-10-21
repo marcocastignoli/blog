@@ -11,6 +11,9 @@ importers:
       gray-matter:
         specifier: 4.0.3
         version: 4.0.3
+      isbot:
+        specifier: ^5
+        version: 5.2.2
       marked:
         specifier: 18.1.1
         version: 18.1.1

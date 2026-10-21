@@ -1,0 +1,143 @@
+/* Per-article themes. A post picks one with `theme:` in its front matter (the category sets a default)
+   and may add free CSS with `style:`. Themes only touch the article (.post[data-theme]); the header,
+   navigation and footer stay the shared base. Every theme works in light and dark mode. */
+
+/* tech: cooler, denser, monospace headings, roomy code. */
+.post[data-theme="tech"] {
+  --theme-head: var(--font-mono);
+}
+.post[data-theme="tech"] .post-title,
+.post[data-theme="tech"] .post-body h2,
+.post[data-theme="tech"] .post-body h3,
+.post[data-theme="tech"] .post-body h4 {
+  font-family: var(--theme-head);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+.post[data-theme="tech"] .post-title { font-size: 1.8rem; }
+.post[data-theme="tech"] .post-body h2::before,
+.post[data-theme="tech"] .post-body h3::before,
+.post[data-theme="tech"] .post-body h4::before {
+  content: "# ";
+  color: var(--accent);
+}
+.post[data-theme="tech"] .post-body pre {
+  border-left: 3px solid var(--accent);
+  border-radius: 0;
+}
+
+/* ideas: sans-serif, bold headings, short punchy lines. */
+.post[data-theme="ideas"] .post-body,
+.post[data-theme="ideas"] .post-title {
+  font-family: var(--font-sans);
+}
+.post[data-theme="ideas"] .post-title { font-weight: 700; }
+.post[data-theme="ideas"] .post-body { font-size: 1rem; line-height: 1.55; }
+.post[data-theme="ideas"] .post-body h2,
+.post[data-theme="ideas"] .post-body h3,
+.post[data-theme="ideas"] .post-body h4 {
+  font-weight: 700;
+  color: var(--accent);
+}
+
+/* travel-diary: warm paper, dated entries, photos with soft corners. */
+.post[data-theme="travel-diary"] {
+  --paper: #f8f3ea;
+  --paper-fg: #2b241c;
+  --paper-muted: #7a6c5a;
+}
+@media (prefers-color-scheme: dark) {
+  .post[data-theme="travel-diary"] {
+    --paper: #1d1a15;
+    --paper-fg: #e6ddcf;
+    --paper-muted: #a0937f;
+  }
+}
+.post[data-theme="travel-diary"] .post-body {
+  background: var(--paper);
+  color: var(--paper-fg);
+  padding: 1.5rem 1.75rem;
+  margin-inline: -1.75rem;
+  border-radius: 6px;
+  line-height: 1.7;
+}
+.post[data-theme="travel-diary"] .post-body strong {
+  display: block;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--paper-muted);
+  margin-top: 1.8em;
+}
+.post[data-theme="travel-diary"] .post-body p:first-child strong { margin-top: 0; }
+.post[data-theme="travel-diary"] .post-body img {
+  border-radius: 6px;
+  box-shadow: 0 2px 12px rgb(0 0 0 / 0.15);
+}
+@media (max-width: 40rem) {
+  .post[data-theme="travel-diary"] .post-body { margin-inline: -1rem; padding: 1.25rem 1rem; }
+}
+
+/* short-story: a printed book. Drop cap, justified text, centred scene breaks. */
+.post[data-theme="short-story"] .post-title {
+  text-align: center;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 2.3rem;
+}
+.post[data-theme="short-story"] .post-category,
+.post[data-theme="short-story"] .post-date { text-align: center; }
+.post[data-theme="short-story"] .post-body {
+  font-size: 1.1rem;
+  line-height: 1.75;
+  text-align: justify;
+  hyphens: auto;
+}
+.post[data-theme="short-story"] .post-body > p:first-of-type::first-letter {
+  float: left;
+  font-size: 3.6em;
+  line-height: 0.85;
+  padding: 0.08em 0.1em 0 0;
+  color: var(--accent);
+}
+.post[data-theme="short-story"] .post-body hr::after { content: "❦"; letter-spacing: 0; }
+.post[data-theme="short-story"] .post-body .align-right {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+}
+
+/* philosophy: light, airy, wide leading, small-caps headings. */
+.post[data-theme="philosophy"] .post-title {
+  font-weight: 300;
+  font-size: 2.4rem;
+  letter-spacing: 0.01em;
+}
+.post[data-theme="philosophy"] .post-body {
+  font-size: 1.12rem;
+  line-height: 1.85;
+}
+.post[data-theme="philosophy"] .post-body h2,
+.post[data-theme="philosophy"] .post-body h3,
+.post[data-theme="philosophy"] .post-body h4 {
+  font-weight: 400;
+  font-variant: small-caps;
+  letter-spacing: 0.08em;
+  text-align: center;
+}
+.post[data-theme="philosophy"] .post-body hr::after { content: "§"; letter-spacing: 0; }
+.post[data-theme="philosophy"] .post-body blockquote {
+  border: 0;
+  font-style: italic;
+  text-align: center;
+  padding: 0 1.5rem;
+}
+
+/* podcast: embeds as a playlist. */
+.post[data-theme="podcast"] .post-body iframe {
+  margin: 0.75em 0;
+  border-radius: 12px;
+}
