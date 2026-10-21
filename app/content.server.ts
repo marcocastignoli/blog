@@ -109,7 +109,7 @@ export function categoryPath(c: Category, lang: Lang): string {
 }
 
 export function toSummary(d: Doc): Summary {
-  return { id: d.id, title: d.title, date: d.date, lang: d.lang, category: d.category, path: d.path, pinned: d.pinned, description: d.description };
+  return { id: d.id, title: d.title, date: d.date, lang: d.lang, category: d.category, path: d.path, pinned: d.pinned, translationKey: d.translationKey, description: d.description };
 }
 
 /** Listing order: pinned posts first, then newest first. */

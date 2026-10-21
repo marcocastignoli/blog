@@ -2,8 +2,31 @@ import { Link } from "react-router";
 import type { Category, Summary } from "../site";
 import { formatDate, t, type Lang } from "../i18n";
 
-export function PostList({ posts, categories, lang, highlight = "all" }: { posts: Summary[]; categories: Category[]; lang: Lang; highlight?: "all" | Lang }) {
+/**
+ * With a language highlighted, a translated article appears once, in that language, and a pinned
+ * translation group keeps its place whichever version is shown. Without a highlight every post is listed.
+ */
+export function arrange(posts: Summary[], highlight: "all" | Lang): Summary[] {
+  if (highlight === "all") return posts;
+  const groups = new Map<string, Summary[]>();
+  for (const p of posts) if (p.translationKey) groups.set(p.translationKey, [...(groups.get(p.translationKey) ?? []), p]);
+  const out: Summary[] = [];
+  for (const p of posts) {
+    const group = p.translationKey ? groups.get(p.translationKey) : undefined;
+    if (!group || group.length < 2) {
+      out.push(p);
+      continue;
+    }
+    const wanted = group.find((g) => g.lang === highlight) ?? group[0];
+    if (p !== wanted) continue; // the twin in the other language stays hidden
+    out.push(group.some((g) => g.pinned) ? { ...p, pinned: true } : p);
+  }
+  return out.sort((a, b) => Number(b.pinned) - Number(a.pinned) || b.date.localeCompare(a.date));
+}
+
+export function PostList({ posts: all, categories, lang, highlight = "all" }: { posts: Summary[]; categories: Category[]; lang: Lang; highlight?: "all" | Lang }) {
   const s = t(lang);
+  const posts = arrange(all, highlight);
   if (posts.length === 0) return <p className="post-list-empty">{s.noPosts}</p>;
   return (
     <ol className="post-list">

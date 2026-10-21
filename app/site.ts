@@ -48,6 +48,7 @@ export interface Summary {
   category?: string;
   path: string;
   pinned: boolean;
+  translationKey?: string;
   description: string;
 }
 

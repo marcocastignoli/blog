@@ -16,14 +16,14 @@ function pageInfo(matches: ReturnType<typeof useMatches>): PageInfo | undefined 
 function LangSelector({ page, filter, setFilter, lang }: { page: PageInfo; filter: LangFilter; setFilter: (f: LangFilter) => void; lang: Lang }) {
   const navigate = useNavigate();
   const s = t(lang);
-  const options: { value: Lang; label: string }[] = [
+  const options: { value: LangFilter; label: string }[] = [
+    { value: "all", label: s.all },
     { value: "it", label: "Italiano" },
     { value: "en", label: "English" },
   ];
-  // Every post stays listed: the chosen language is highlighted, the other one is dimmed.
-  // Choosing the highlighted language again clears the choice.
-  function choose(l: Lang) {
-    const f: LangFilter = filter === l ? "all" : l;
+  // "All" (the default) lists every post. A language highlights its posts, dims the other
+  // language and shows translated articles once, in that language.
+  function choose(f: LangFilter) {
     setFilter(f);
     // A category index exists in both languages: follow the chosen one.
     if (page.kind === "category" && page.category && f !== "all" && f !== page.lang) navigate(`/${page.category.slug[f]}/`);
