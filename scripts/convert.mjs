@@ -21,7 +21,7 @@ for (const c of categories) for (const wp of c.wordpress) conceptByWpSlug.set(wp
 const wpCategoryById = new Map(wpCategories.map((c) => [c.id, c]));
 
 // Posts pinned at the top of every listing (by WordPress id and language).
-const PINNED = new Set(["113:it"]);
+const PINNED = new Set(["113:it", "2:it"]);
 
 // Posts whose language the stopword heuristic cannot see (no text, only embeds).
 const LANG_OVERRIDES = { 253: "it" };
@@ -254,6 +254,7 @@ for (const p of pages) {
   if (path.startsWith("/events/")) continue; // booking plugin pages, dropped
   const title = decodeEntities(p.title.rendered);
   const meta = { title, date: p.date_gmt + "Z", modified: p.modified_gmt + "Z", lang: detectLang(p.content.rendered), path, wpId: p.id };
+  if (PINNED.has(`${p.id}:${meta.lang}`)) meta.pinned = true;
   const md = await convertHtml(p.content.rendered, p.link);
   await writeFile(join(ROOT, "content/pages", `${slugOf(path)}.md`), `${frontMatter(meta)}\n\n${md}`);
   report.push(`${meta.lang} page               ${path}`);

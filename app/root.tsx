@@ -61,13 +61,16 @@ export function Layout({ children }: { children: ReactNode }) {
   const matches = useMatches();
   const page = pageInfo(matches);
   const [filter, setFilterState] = useState<LangFilter>("all");
+  const [browserLang, setBrowserLang] = useState<Lang>("it");
 
-  // Applied after hydration so the prerendered HTML matches on first paint.
+  // Applied after hydration so the prerendered HTML (Italian) matches on first paint.
   useEffect(() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEY);
       if (saved === "it" || saved === "en" || saved === "all") setFilterState(saved);
     } catch {}
+    const preferred = (navigator.languages?.[0] ?? navigator.language ?? "it").toLowerCase();
+    setBrowserLang(preferred.startsWith("it") ? "it" : "en");
   }, []);
 
   function setFilter(f: LangFilter) {
@@ -77,7 +80,8 @@ export function Layout({ children }: { children: ReactNode }) {
     } catch {}
   }
 
-  const lang: Lang = page?.kind === "home" ? (filter === "en" ? "en" : "it") : (page?.lang ?? "it");
+  // Home: the interface follows the highlighted language, or the browser language when none is.
+  const lang: Lang = page?.kind === "home" ? (filter === "all" ? browserLang : filter) : (page?.lang ?? "it");
   const s = t(lang);
   return (
     <html lang={lang}>
@@ -102,7 +106,6 @@ export function Layout({ children }: { children: ReactNode }) {
           <footer className="site-footer">
             <span>{s.writtenBy} {s.author}</span>
             <nav className="footer-nav">
-              <Link to="/poesie/">{s.poems}</Link>
               <a href="/feed.xml">{s.feed}</a>
               <a href="https://github.com/marcocastignoli/blog">{s.source}</a>
             </nav>

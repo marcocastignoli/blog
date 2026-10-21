@@ -4,6 +4,7 @@ date: "2022-10-21T10:13:32Z"
 modified: "2025-06-15T16:45:28Z"
 lang: "it"
 path: "/poesie/"
+pinned: true
 wpId: 2
 ---
 

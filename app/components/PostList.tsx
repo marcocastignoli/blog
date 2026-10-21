@@ -36,8 +36,8 @@ export function PostList({ posts: all, categories, lang, highlight = "all" }: { 
           <li key={p.id} className={["post-item", p.pinned && "pinned", highlight !== "all" && p.lang !== highlight && "dimmed"].filter(Boolean).join(" ")} style={c ? ({ "--accent": c.accent } as React.CSSProperties) : undefined}>
             <div className="post-item-meta">
               {p.pinned && <span className="pin-mark">{s.pinned}</span>}
-              <time dateTime={p.date}>{formatDate(p.date, lang)}</time>
-              {c && (
+              {p.kind === "post" && <time dateTime={p.date}>{formatDate(p.date, lang)}</time>}
+              {p.kind === "post" && c && (
                 <>
                   {" · "}
                   <Link to={`/${c.slug[lang]}/`} className="post-item-category">{c.name[lang]}</Link>

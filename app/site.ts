@@ -41,6 +41,7 @@ export interface Doc {
 
 /** What a listing needs: no body. */
 export interface Summary {
+  kind: "post" | "page";
   id: string;
   title: string;
   date: string;

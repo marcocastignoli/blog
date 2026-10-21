@@ -1,12 +1,12 @@
 import { useState } from "react";
-import { forListing, getCategories, getPosts } from "../content.server";
+import { forListing, getCategories, getPinnedPages, getPosts } from "../content.server";
 import { SITE_URL } from "../site";
 import { t, type Lang } from "../i18n";
 import { useLang } from "../lang-context";
 import { PostList } from "../components/PostList";
 
 export function loader() {
-  return { kind: "home" as const, lang: "it" as Lang, posts: forListing(getPosts()), categories: getCategories() };
+  return { kind: "home" as const, lang: "it" as Lang, posts: forListing([...getPosts(), ...getPinnedPages()]), categories: getCategories() };
 }
 
 export function meta() {

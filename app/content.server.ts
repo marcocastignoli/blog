@@ -109,10 +109,15 @@ export function categoryPath(c: Category, lang: Lang): string {
 }
 
 export function toSummary(d: Doc): Summary {
-  return { id: d.id, title: d.title, date: d.date, lang: d.lang, category: d.category, path: d.path, pinned: d.pinned, translationKey: d.translationKey, description: d.description };
+  return { kind: d.kind, id: d.id, title: d.title, date: d.date, lang: d.lang, category: d.category, path: d.path, pinned: d.pinned, translationKey: d.translationKey, description: d.description };
 }
 
-/** Listing order: pinned posts first, then newest first. */
+/** Pinned pages (such as the poems) are listed on the home with the posts. */
+export function getPinnedPages(): Doc[] {
+  return getPages().filter((p) => p.pinned);
+}
+
+/** Listing order: pinned first, then newest first. */
 export function forListing(posts: Doc[]): Summary[] {
   return [...posts].sort((a, b) => Number(b.pinned) - Number(a.pinned) || b.date.localeCompare(a.date)).map(toSummary);
 }
