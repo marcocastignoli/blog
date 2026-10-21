@@ -2,7 +2,7 @@ import { useState } from "react";
 import { forListing, getCategories, getPosts } from "../content.server";
 import { SITE_URL } from "../site";
 import { t, type Lang } from "../i18n";
-import { useLang } from "../root";
+import { useLang } from "../lang-context";
 import { PostList } from "../components/PostList";
 
 export function loader() {

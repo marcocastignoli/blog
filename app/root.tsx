@@ -1,28 +1,9 @@
-import { createContext, useContext, useEffect, useState, type MouseEvent, type ReactNode } from "react";
+import { useEffect, useState, type MouseEvent, type ReactNode } from "react";
 import { Link, Links, Meta, Outlet, Scripts, ScrollRestoration, isRouteErrorResponse, useMatches, useNavigate, useRouteError } from "react-router";
 import { t, type Lang } from "./i18n";
-import type { Category } from "./site";
+import { LANG_FILTER_STORAGE_KEY as STORAGE_KEY, LangContext, useLang, type LangFilter, type PageInfo } from "./lang-context";
 import "./styles/base.css";
 import "./styles/themes.css";
-
-export type LangFilter = "all" | Lang;
-const STORAGE_KEY = "castignoli-lang-filter";
-
-/** What every route's loader tells the layout about the page. */
-export interface PageInfo {
-  kind: "home" | "category" | "doc";
-  lang: Lang;
-  category?: Category;
-}
-
-// The language of the page comes from the matched route's loader data. On the home page the
-// interface follows the highlighted language, which the browser remembers.
-const LangContext = createContext<{ lang: Lang; filter: LangFilter; setFilter: (f: LangFilter) => void }>({
-  lang: "it",
-  filter: "all",
-  setFilter: () => {},
-});
-export const useLang = () => useContext(LangContext);
 
 function pageInfo(matches: ReturnType<typeof useMatches>): PageInfo | undefined {
   for (const m of [...matches].reverse()) {

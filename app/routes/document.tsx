@@ -3,7 +3,7 @@ import { getCategories, resolve } from "../content.server";
 import { SITE_URL, type Category, type Doc, type Summary, type Translation } from "../site";
 import { formatDate, t, type Lang } from "../i18n";
 import { PostList } from "../components/PostList";
-import { useLang } from "../root";
+import { useLang } from "../lang-context";
 
 interface DocData {
   kind: "doc";
