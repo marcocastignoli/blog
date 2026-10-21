@@ -27,6 +27,16 @@ export default function Home({ loaderData }: { loaderData: ReturnType<typeof loa
 
   return (
     <div className="home">
+      <img
+        className="site-motto"
+        src="/wp-content/uploads/2022/10/banner-1024x241.png"
+        srcSet="/wp-content/uploads/2022/10/banner-768x181.png 768w, /wp-content/uploads/2022/10/banner-1024x241.png 1024w, /wp-content/uploads/2022/10/banner-1536x361.png 1536w, /wp-content/uploads/2022/10/banner.png 1700w"
+        sizes="(max-width: 40rem) calc(100vw - 2.5rem), 38rem"
+        width="1700"
+        height="400"
+        alt="What if the child was right, but had no words to say it?"
+        fetchPriority="high"
+      />
       <div className="category-filter" role="group" aria-label={s.categoryFilterLabel}>
         <button type="button" aria-pressed={category === "all"} onClick={() => setCategory("all")}>
           {s.allCategories}

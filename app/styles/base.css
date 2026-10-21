@@ -131,6 +131,23 @@ a:hover {
   gap: 1.25rem;
 }
 
+/* The handwritten motto at the top of the home. The blend modes hide the image background and
+   the dark theme inverts the pencil strokes so they stay readable. */
+.site-motto {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0.5rem 0 2rem;
+  mix-blend-mode: multiply;
+}
+
+@media (prefers-color-scheme: dark) {
+  .site-motto {
+    filter: invert(1);
+    mix-blend-mode: screen;
+  }
+}
+
 /* Home and category listings */
 .lang-filter,
 .category-filter {
