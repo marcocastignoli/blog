@@ -35,7 +35,7 @@ Marco Castignoli's personal blog: Markdown content in `content/`, a React Router
    The URL becomes `/<category slug in lang>/slug/` (`/tecnologia/slug/` for Italian, `/technology/slug/` for English). Set `path` only to force another URL. Add `pinned: true`, `theme`, `translationKey` or `style` when wanted (see the table below).
 2. Put images and videos under `public/wp-content/uploads/YYYY/MM/` and link them root-relative: `![alt](/wp-content/uploads/2026/10/photo.jpg)`. A `<video controls src="...">` or an `<iframe>` embed can be written as raw HTML in the body.
 3. Check it with `pnpm dev` (http://localhost:5173/) or `pnpm build && pnpm preview`. The build fails on a duplicate path.
-4. Commit on a branch, push, open a pull request, merge. The workflow deploys `main` within about a minute; the site is at https://www.castignoli.it.
+4. Commit on `main` and push. The workflow deploys within about a minute; the site is at https://www.castignoli.it.
 
 A translation is a second file with the other `lang`, its own `title` and the same `translationKey`; both posts then link to each other and the listings show one of them when a language is highlighted. A standalone page goes in `content/pages/` and appears on the home only when pinned.
 
@@ -88,7 +88,7 @@ The dev server renders loaders in Node; the production build runs every loader o
 
 ## Rules
 
-- Work on a branch and open a pull request; never push to `main` directly.
+- Commit directly on `main` and push; every push deploys. No branches or pull requests are needed here (Marco's choice for this repo, 2026-10-21).
 - Keep URLs stable: never change a published `path`; add `aliases` when something moves.
 - Before writing custom code, look for an existing tool or library and say what you found. Check the latest version of a package before pinning it.
 - Markdown prose is one paragraph per line, never hard-wrapped.
