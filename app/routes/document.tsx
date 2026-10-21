@@ -30,6 +30,16 @@ export function loader({ params }: { params: Record<string, string | undefined> 
   return { kind: "doc", lang: hit.doc.lang, doc: hit.doc, translations: hit.translations, category, categories };
 }
 
+// On GitHub Pages an unknown path serves 404.html (the SPA fallback) and the router then asks for
+// <path>/_.data, which does not exist. Turn that failure into a proper 404 for the error boundary.
+export async function clientLoader({ serverLoader }: { serverLoader: () => Promise<LoaderData> }): Promise<LoaderData> {
+  try {
+    return await serverLoader();
+  } catch {
+    throw data(null, { status: 404 });
+  }
+}
+
 export function meta({ loaderData }: { loaderData?: LoaderData }) {
   if (!loaderData) return [{ title: "castignoli.it" }];
   const s = t(loaderData.lang);
