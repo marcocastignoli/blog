@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "name": "Marco Castignoli",
+    "url": "https://www.castignoli.it",
+    "description": "",
+    "link": "https://www.castignoli.it/author/admin/",
+    "slug": "admin",
+    "avatar_urls": {
+      "24": "https://secure.gravatar.com/avatar/d945b5e9933ee11395e3953b95cea63da829c99db9c721338eb570e27123e991?s=24&d=mm&r=g",
+      "48": "https://secure.gravatar.com/avatar/d945b5e9933ee11395e3953b95cea63da829c99db9c721338eb570e27123e991?s=48&d=mm&r=g",
+      "96": "https://secure.gravatar.com/avatar/d945b5e9933ee11395e3953b95cea63da829c99db9c721338eb570e27123e991?s=96&d=mm&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/users/1",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/users"
+        }
+      ]
+    }
+  }
+]

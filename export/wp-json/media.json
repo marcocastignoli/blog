@@ -1,0 +1,1793 @@
+[
+  {
+    "id": 307,
+    "date": "2026-10-06T11:46:30",
+    "date_gmt": "2026-10-06T09:46:30",
+    "guid": {
+      "rendered": "https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_11-45-22.jpg"
+    },
+    "modified": "2026-10-06T11:46:30",
+    "modified_gmt": "2026-10-06T09:46:30",
+    "slug": "photo_2026-10-06_11-45-22",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://www.castignoli.it/tecnologia/my-own-personal-whim-ditching-all-my-devices-for-my-phone/attachment/photo_2026-10-06_11-45-22/",
+    "title": {
+      "rendered": "photo_2026-10-06_11-45-22"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_oct_exclude_from_cache": false
+    },
+    "class_list": [
+      "post-307",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_11-45-22.jpg'><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"226\" src=\"https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_11-45-22-300x226.jpg\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_11-45-22-300x226.jpg 300w, https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_11-45-22-1024x771.jpg 1024w, https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_11-45-22-768x578.jpg 768w, https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_11-45-22.jpg 1280w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/jpeg",
+    "media_details": {
+      "width": 1280,
+      "height": 964,
+      "file": "2026/10/photo_2026-10-06_11-45-22.jpg",
+      "filesize": 225771,
+      "sizes": {
+        "medium": {
+          "file": "photo_2026-10-06_11-45-22-300x226.jpg",
+          "width": 300,
+          "height": 226,
+          "filesize": 13163,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_11-45-22-300x226.jpg"
+        },
+        "large": {
+          "file": "photo_2026-10-06_11-45-22-1024x771.jpg",
+          "width": 1024,
+          "height": 771,
+          "filesize": 130519,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_11-45-22-1024x771.jpg"
+        },
+        "thumbnail": {
+          "file": "photo_2026-10-06_11-45-22-150x150.jpg",
+          "width": 150,
+          "height": 150,
+          "filesize": 5754,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_11-45-22-150x150.jpg"
+        },
+        "medium_large": {
+          "file": "photo_2026-10-06_11-45-22-768x578.jpg",
+          "width": 768,
+          "height": 578,
+          "filesize": 76021,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_11-45-22-768x578.jpg"
+        },
+        "full": {
+          "file": "photo_2026-10-06_11-45-22.jpg",
+          "width": 1280,
+          "height": 964,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_11-45-22.jpg"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": [],
+        "alt": ""
+      }
+    },
+    "post": 299,
+    "source_url": "https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_11-45-22.jpg",
+    "filename": "photo_2026-10-06_11-45-22.jpg",
+    "filesize": 225771,
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/media/307",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/users/1"
+        }
+      ],
+      "wp:attached-to": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "id": 299,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/posts/299"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 305,
+    "date": "2026-10-06T09:44:58",
+    "date_gmt": "2026-10-06T07:44:58",
+    "guid": {
+      "rendered": "https://www.castignoli.it/wp-content/uploads/2026/10/video_2026-10-06_09-42-44.mp4"
+    },
+    "modified": "2026-10-06T09:44:58",
+    "modified_gmt": "2026-10-06T07:44:58",
+    "slug": "video_2026-10-06_09-42-44",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://www.castignoli.it/tecnologia/my-own-personal-whim-ditching-all-my-devices-for-my-phone/attachment/video_2026-10-06_09-42-44/",
+    "title": {
+      "rendered": "video_2026-10-06_09-42-44"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_oct_exclude_from_cache": false
+    },
+    "class_list": [
+      "post-305",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<div style=\"width: 1280px;\" class=\"wp-video\"><video class=\"wp-video-shortcode\" id=\"video-305-1\" width=\"1280\" height=\"966\" preload=\"metadata\" controls=\"controls\"><source type=\"video/mp4\" src=\"https://www.castignoli.it/wp-content/uploads/2026/10/video_2026-10-06_09-42-44.mp4?_=1\" /><a href=\"https://www.castignoli.it/wp-content/uploads/2026/10/video_2026-10-06_09-42-44.mp4\">https://www.castignoli.it/wp-content/uploads/2026/10/video_2026-10-06_09-42-44.mp4</a></video></div>\n"
+    },
+    "caption": {
+      "rendered": "<p>https://www.castignoli.it/wp-content/uploads/2026/10/video_2026-10-06_09-42-44.mp4</p>\n"
+    },
+    "alt_text": "",
+    "media_type": "file",
+    "mime_type": "video/mp4",
+    "media_details": {
+      "bitrate": 658526,
+      "filesize": 5087253,
+      "mime_type": "video/mp4",
+      "length": 58,
+      "length_formatted": "0:58",
+      "width": 1280,
+      "height": 966,
+      "fileformat": "mp4",
+      "dataformat": "quicktime",
+      "codec": "H.264/MPEG-4 AVC",
+      "audio": {
+        "dataformat": "mp4",
+        "bitrate": 48000,
+        "codec": "ISO/IEC 14496-3 AAC",
+        "sample_rate": 48000,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "lossless": false,
+        "channelmode": "stereo",
+        "compression_ratio": 0.03125
+      },
+      "created_timestamp": 1791272546,
+      "sizes": {}
+    },
+    "post": 299,
+    "source_url": "https://www.castignoli.it/wp-content/uploads/2026/10/video_2026-10-06_09-42-44.mp4",
+    "filename": "video_2026-10-06_09-42-44.mp4",
+    "filesize": 5087253,
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/media/305",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/users/1"
+        }
+      ],
+      "wp:attached-to": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "id": 299,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/posts/299"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 304,
+    "date": "2026-10-06T09:22:15",
+    "date_gmt": "2026-10-06T07:22:15",
+    "guid": {
+      "rendered": "https://www.castignoli.it/wp-content/uploads/2026/10/video_2026-10-06_09-21-34.mp4"
+    },
+    "modified": "2026-10-06T09:22:15",
+    "modified_gmt": "2026-10-06T07:22:15",
+    "slug": "video_2026-10-06_09-21-34",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://www.castignoli.it/tecnologia/my-own-personal-whim-ditching-all-my-devices-for-my-phone/attachment/video_2026-10-06_09-21-34/",
+    "title": {
+      "rendered": "video_2026-10-06_09-21-34"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_oct_exclude_from_cache": false
+    },
+    "class_list": [
+      "post-304",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<div style=\"width: 1280px;\" class=\"wp-video\"><video class=\"wp-video-shortcode\" id=\"video-304-3\" width=\"1280\" height=\"966\" preload=\"metadata\" controls=\"controls\"><source type=\"video/mp4\" src=\"https://www.castignoli.it/wp-content/uploads/2026/10/video_2026-10-06_09-21-34.mp4?_=3\" /><a href=\"https://www.castignoli.it/wp-content/uploads/2026/10/video_2026-10-06_09-21-34.mp4\">https://www.castignoli.it/wp-content/uploads/2026/10/video_2026-10-06_09-21-34.mp4</a></video></div>\n"
+    },
+    "caption": {
+      "rendered": "<p>https://www.castignoli.it/wp-content/uploads/2026/10/video_2026-10-06_09-21-34.mp4</p>\n"
+    },
+    "alt_text": "",
+    "media_type": "file",
+    "mime_type": "video/mp4",
+    "media_details": {
+      "bitrate": 3198580,
+      "filesize": 5998232,
+      "mime_type": "video/mp4",
+      "length": 15,
+      "length_formatted": "0:15",
+      "width": 1280,
+      "height": 966,
+      "fileformat": "mp4",
+      "dataformat": "quicktime",
+      "codec": "H.264/MPEG-4 AVC",
+      "audio": {
+        "dataformat": "mp4",
+        "bitrate": 48000,
+        "codec": "ISO/IEC 14496-3 AAC",
+        "sample_rate": 48000,
+        "channels": 2,
+        "bits_per_sample": 16,
+        "lossless": false,
+        "channelmode": "stereo",
+        "compression_ratio": 0.03125
+      },
+      "created_timestamp": 1791271271,
+      "sizes": {}
+    },
+    "post": 299,
+    "source_url": "https://www.castignoli.it/wp-content/uploads/2026/10/video_2026-10-06_09-21-34.mp4",
+    "filename": "video_2026-10-06_09-21-34.mp4",
+    "filesize": 5998232,
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/media/304",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/users/1"
+        }
+      ],
+      "wp:attached-to": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "id": 299,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/posts/299"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 303,
+    "date": "2026-10-06T09:03:42",
+    "date_gmt": "2026-10-06T07:03:42",
+    "guid": {
+      "rendered": "https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_09-00-19.jpg"
+    },
+    "modified": "2026-10-06T09:03:42",
+    "modified_gmt": "2026-10-06T07:03:42",
+    "slug": "photo_2026-10-06_09-00-19",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://www.castignoli.it/tecnologia/my-own-personal-whim-ditching-all-my-devices-for-my-phone/attachment/photo_2026-10-06_09-00-19/",
+    "title": {
+      "rendered": "photo_2026-10-06_09-00-19"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_oct_exclude_from_cache": false
+    },
+    "class_list": [
+      "post-303",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_09-00-19.jpg'><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"126\" src=\"https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_09-00-19-300x126.jpg\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_09-00-19-300x126.jpg 300w, https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_09-00-19-1024x429.jpg 1024w, https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_09-00-19-768x322.jpg 768w, https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_09-00-19.jpg 1280w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/jpeg",
+    "media_details": {
+      "width": 1280,
+      "height": 536,
+      "file": "2026/10/photo_2026-10-06_09-00-19.jpg",
+      "filesize": 88631,
+      "sizes": {
+        "medium": {
+          "file": "photo_2026-10-06_09-00-19-300x126.jpg",
+          "width": 300,
+          "height": 126,
+          "filesize": 9625,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_09-00-19-300x126.jpg"
+        },
+        "large": {
+          "file": "photo_2026-10-06_09-00-19-1024x429.jpg",
+          "width": 1024,
+          "height": 429,
+          "filesize": 58765,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_09-00-19-1024x429.jpg"
+        },
+        "thumbnail": {
+          "file": "photo_2026-10-06_09-00-19-150x150.jpg",
+          "width": 150,
+          "height": 150,
+          "filesize": 6345,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_09-00-19-150x150.jpg"
+        },
+        "medium_large": {
+          "file": "photo_2026-10-06_09-00-19-768x322.jpg",
+          "width": 768,
+          "height": 322,
+          "filesize": 38950,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_09-00-19-768x322.jpg"
+        },
+        "full": {
+          "file": "photo_2026-10-06_09-00-19.jpg",
+          "width": 1280,
+          "height": 536,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_09-00-19.jpg"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": [],
+        "alt": ""
+      }
+    },
+    "post": 299,
+    "source_url": "https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_09-00-19.jpg",
+    "filename": "photo_2026-10-06_09-00-19.jpg",
+    "filesize": 88631,
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/media/303",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/users/1"
+        }
+      ],
+      "wp:attached-to": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "id": 299,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/posts/299"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 302,
+    "date": "2026-10-06T08:41:44",
+    "date_gmt": "2026-10-06T06:41:44",
+    "guid": {
+      "rendered": "https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-411.jpg"
+    },
+    "modified": "2026-10-06T08:41:44",
+    "modified_gmt": "2026-10-06T06:41:44",
+    "slug": "photo_2026-10-06_08-38-411",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://www.castignoli.it/tecnologia/my-own-personal-whim-ditching-all-my-devices-for-my-phone/attachment/photo_2026-10-06_08-38-411/",
+    "title": {
+      "rendered": "photo_2026-10-06_08-38-41(1)"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_oct_exclude_from_cache": false
+    },
+    "class_list": [
+      "post-302",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-411.jpg'><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"101\" src=\"https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-411-300x101.jpg\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-411-300x101.jpg 300w, https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-411-768x257.jpg 768w, https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-411.jpg 907w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/jpeg",
+    "media_details": {
+      "width": 907,
+      "height": 304,
+      "file": "2026/10/photo_2026-10-06_08-38-411.jpg",
+      "filesize": 40408,
+      "sizes": {
+        "medium": {
+          "file": "photo_2026-10-06_08-38-411-300x101.jpg",
+          "width": 300,
+          "height": 101,
+          "filesize": 4528,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-411-300x101.jpg"
+        },
+        "thumbnail": {
+          "file": "photo_2026-10-06_08-38-411-150x150.jpg",
+          "width": 150,
+          "height": 150,
+          "filesize": 3407,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-411-150x150.jpg"
+        },
+        "medium_large": {
+          "file": "photo_2026-10-06_08-38-411-768x257.jpg",
+          "width": 768,
+          "height": 257,
+          "filesize": 17050,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-411-768x257.jpg"
+        },
+        "full": {
+          "file": "photo_2026-10-06_08-38-411.jpg",
+          "width": 907,
+          "height": 304,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-411.jpg"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": [],
+        "alt": ""
+      }
+    },
+    "post": 299,
+    "source_url": "https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-411.jpg",
+    "filename": "photo_2026-10-06_08-38-411.jpg",
+    "filesize": 40408,
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/media/302",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/users/1"
+        }
+      ],
+      "wp:attached-to": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "id": 299,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/posts/299"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 301,
+    "date": "2026-10-06T08:39:36",
+    "date_gmt": "2026-10-06T06:39:36",
+    "guid": {
+      "rendered": "https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-41-edited.jpg"
+    },
+    "modified": "2026-10-06T08:39:36",
+    "modified_gmt": "2026-10-06T06:39:36",
+    "slug": "photo_2026-10-06_08-38-41-2",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://www.castignoli.it/tecnologia/my-own-personal-whim-ditching-all-my-devices-for-my-phone/attachment/photo_2026-10-06_08-38-41-2/",
+    "title": {
+      "rendered": "photo_2026-10-06_08-38-41"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_oct_exclude_from_cache": false
+    },
+    "class_list": [
+      "post-301",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-41-edited.jpg'><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"101\" src=\"https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-41-edited-300x101.jpg\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-41-edited-300x101.jpg 300w, https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-41-edited-768x258.jpg 768w, https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-41-edited.jpg 907w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/jpeg",
+    "media_details": {
+      "width": 907,
+      "height": 305,
+      "file": "2026/10/photo_2026-10-06_08-38-41-edited.jpg",
+      "filesize": 28796,
+      "sizes": {
+        "medium": {
+          "file": "photo_2026-10-06_08-38-41-edited-300x101.jpg",
+          "width": 300,
+          "height": 101,
+          "filesize": 5222,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-41-edited-300x101.jpg"
+        },
+        "thumbnail": {
+          "file": "photo_2026-10-06_08-38-41-edited-150x150.jpg",
+          "width": 150,
+          "height": 150,
+          "filesize": 3601,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-41-edited-150x150.jpg"
+        },
+        "medium_large": {
+          "file": "photo_2026-10-06_08-38-41-edited-768x258.jpg",
+          "width": 768,
+          "height": 258,
+          "filesize": 19467,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-41-edited-768x258.jpg"
+        },
+        "full": {
+          "file": "photo_2026-10-06_08-38-41-edited.jpg",
+          "width": 907,
+          "height": 305,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-41-edited.jpg"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": [],
+        "alt": ""
+      },
+      "parent_image": {
+        "attachment_id": "300",
+        "file": "2026/10/photo_2026-10-06_08-38-41.jpg"
+      }
+    },
+    "post": 299,
+    "source_url": "https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-41-edited.jpg",
+    "filename": "photo_2026-10-06_08-38-41-edited.jpg",
+    "filesize": 28796,
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/media/301",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/users/1"
+        }
+      ],
+      "wp:attached-to": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "id": 299,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/posts/299"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 300,
+    "date": "2026-10-06T08:39:09",
+    "date_gmt": "2026-10-06T06:39:09",
+    "guid": {
+      "rendered": "https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-41.jpg"
+    },
+    "modified": "2026-10-06T08:39:09",
+    "modified_gmt": "2026-10-06T06:39:09",
+    "slug": "photo_2026-10-06_08-38-41",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://www.castignoli.it/tecnologia/my-own-personal-whim-ditching-all-my-devices-for-my-phone/attachment/photo_2026-10-06_08-38-41/",
+    "title": {
+      "rendered": "photo_2026-10-06_08-38-41"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_oct_exclude_from_cache": false
+    },
+    "class_list": [
+      "post-300",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-41.jpg'><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"110\" src=\"https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-41-300x110.jpg\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-41-300x110.jpg 300w, https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-41-768x282.jpg 768w, https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-41.jpg 907w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/jpeg",
+    "media_details": {
+      "width": 907,
+      "height": 333,
+      "file": "2026/10/photo_2026-10-06_08-38-41.jpg",
+      "filesize": 22929,
+      "sizes": {
+        "medium": {
+          "file": "photo_2026-10-06_08-38-41-300x110.jpg",
+          "width": 300,
+          "height": 110,
+          "filesize": 5547,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-41-300x110.jpg"
+        },
+        "thumbnail": {
+          "file": "photo_2026-10-06_08-38-41-150x150.jpg",
+          "width": 150,
+          "height": 150,
+          "filesize": 4272,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-41-150x150.jpg"
+        },
+        "medium_large": {
+          "file": "photo_2026-10-06_08-38-41-768x282.jpg",
+          "width": 768,
+          "height": 282,
+          "filesize": 20566,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-41-768x282.jpg"
+        },
+        "full": {
+          "file": "photo_2026-10-06_08-38-41.jpg",
+          "width": 907,
+          "height": 333,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-41.jpg"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": [],
+        "alt": ""
+      }
+    },
+    "post": 299,
+    "source_url": "https://www.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-41.jpg",
+    "filename": "photo_2026-10-06_08-38-41.jpg",
+    "filesize": 22929,
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/media/300",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/users/1"
+        }
+      ],
+      "wp:attached-to": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "id": 299,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/posts/299"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 171,
+    "date": "2023-06-30T00:05:22",
+    "date_gmt": "2023-06-29T22:05:22",
+    "guid": {
+      "rendered": "https://www.castignoli.it/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-29-at-20.23.44.jpeg"
+    },
+    "modified": "2023-06-30T00:05:22",
+    "modified_gmt": "2023-06-29T22:05:22",
+    "slug": "whatsapp-image-2023-06-29-at-20-23-44",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://www.castignoli.it/whatsapp-image-2023-06-29-at-20-23-44/",
+    "title": {
+      "rendered": "WhatsApp Image 2023-06-29 at 20.23.44"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_oct_exclude_from_cache": false
+    },
+    "class_list": [
+      "post-171",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='https://www.castignoli.it/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-29-at-20.23.44.jpeg'><img loading=\"lazy\" decoding=\"async\" width=\"225\" height=\"300\" src=\"https://www.castignoli.it/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-29-at-20.23.44-225x300.jpeg\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://www.castignoli.it/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-29-at-20.23.44-225x300.jpeg 225w, https://www.castignoli.it/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-29-at-20.23.44-768x1024.jpeg 768w, https://www.castignoli.it/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-29-at-20.23.44-1152x1536.jpeg 1152w, https://www.castignoli.it/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-29-at-20.23.44.jpeg 1536w\" sizes=\"auto, (max-width: 225px) 100vw, 225px\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/jpeg",
+    "media_details": {
+      "width": 1536,
+      "height": 2048,
+      "file": "2023/06/WhatsApp-Image-2023-06-29-at-20.23.44.jpeg",
+      "filesize": 683628,
+      "sizes": {
+        "medium": {
+          "file": "WhatsApp-Image-2023-06-29-at-20.23.44-225x300.jpeg",
+          "width": 225,
+          "height": 300,
+          "filesize": 24187,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-29-at-20.23.44-225x300.jpeg"
+        },
+        "large": {
+          "file": "WhatsApp-Image-2023-06-29-at-20.23.44-768x1024.jpeg",
+          "width": 768,
+          "height": 1024,
+          "filesize": 230556,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-29-at-20.23.44-768x1024.jpeg"
+        },
+        "thumbnail": {
+          "file": "WhatsApp-Image-2023-06-29-at-20.23.44-150x150.jpeg",
+          "width": 150,
+          "height": 150,
+          "filesize": 8965,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-29-at-20.23.44-150x150.jpeg"
+        },
+        "medium_large": {
+          "file": "WhatsApp-Image-2023-06-29-at-20.23.44-768x1024.jpeg",
+          "width": 768,
+          "height": 1024,
+          "filesize": 230556,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-29-at-20.23.44-768x1024.jpeg"
+        },
+        "1536x1536": {
+          "file": "WhatsApp-Image-2023-06-29-at-20.23.44-1152x1536.jpeg",
+          "width": 1152,
+          "height": 1536,
+          "filesize": 440432,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-29-at-20.23.44-1152x1536.jpeg"
+        },
+        "full": {
+          "file": "WhatsApp-Image-2023-06-29-at-20.23.44.jpeg",
+          "width": 1536,
+          "height": 2048,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-29-at-20.23.44.jpeg"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "https://www.castignoli.it/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-29-at-20.23.44.jpeg",
+    "filename": "WhatsApp-Image-2023-06-29-at-20.23.44.jpeg",
+    "filesize": 683628,
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/media/171",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/users/1"
+        }
+      ]
+    }
+  },
+  {
+    "id": 167,
+    "date": "2023-06-28T12:47:27",
+    "date_gmt": "2023-06-28T10:47:27",
+    "guid": {
+      "rendered": "https://www.castignoli.it/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-28-at-12.27.13.jpeg"
+    },
+    "modified": "2023-06-28T12:47:27",
+    "modified_gmt": "2023-06-28T10:47:27",
+    "slug": "whatsapp-image-2023-06-28-at-12-27-13",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://www.castignoli.it/whatsapp-image-2023-06-28-at-12-27-13/",
+    "title": {
+      "rendered": "WhatsApp Image 2023-06-28 at 12.27.13"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_oct_exclude_from_cache": false
+    },
+    "class_list": [
+      "post-167",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='https://www.castignoli.it/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-28-at-12.27.13.jpeg'><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"169\" src=\"https://www.castignoli.it/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-28-at-12.27.13-300x169.jpeg\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://www.castignoli.it/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-28-at-12.27.13-300x169.jpeg 300w, https://www.castignoli.it/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-28-at-12.27.13-1024x576.jpeg 1024w, https://www.castignoli.it/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-28-at-12.27.13-768x432.jpeg 768w, https://www.castignoli.it/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-28-at-12.27.13-1536x864.jpeg 1536w, https://www.castignoli.it/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-28-at-12.27.13.jpeg 1599w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/jpeg",
+    "media_details": {
+      "width": 1599,
+      "height": 899,
+      "file": "2023/06/WhatsApp-Image-2023-06-28-at-12.27.13.jpeg",
+      "filesize": 168664,
+      "sizes": {
+        "medium": {
+          "file": "WhatsApp-Image-2023-06-28-at-12.27.13-300x169.jpeg",
+          "width": 300,
+          "height": 169,
+          "filesize": 16686,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-28-at-12.27.13-300x169.jpeg"
+        },
+        "large": {
+          "file": "WhatsApp-Image-2023-06-28-at-12.27.13-1024x576.jpeg",
+          "width": 1024,
+          "height": 576,
+          "filesize": 105722,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-28-at-12.27.13-1024x576.jpeg"
+        },
+        "thumbnail": {
+          "file": "WhatsApp-Image-2023-06-28-at-12.27.13-150x150.jpeg",
+          "width": 150,
+          "height": 150,
+          "filesize": 9425,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-28-at-12.27.13-150x150.jpeg"
+        },
+        "medium_large": {
+          "file": "WhatsApp-Image-2023-06-28-at-12.27.13-768x432.jpeg",
+          "width": 768,
+          "height": 432,
+          "filesize": 69148,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-28-at-12.27.13-768x432.jpeg"
+        },
+        "1536x1536": {
+          "file": "WhatsApp-Image-2023-06-28-at-12.27.13-1536x864.jpeg",
+          "width": 1536,
+          "height": 864,
+          "filesize": 188441,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-28-at-12.27.13-1536x864.jpeg"
+        },
+        "full": {
+          "file": "WhatsApp-Image-2023-06-28-at-12.27.13.jpeg",
+          "width": 1599,
+          "height": 899,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-28-at-12.27.13.jpeg"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "https://www.castignoli.it/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-28-at-12.27.13.jpeg",
+    "filename": "WhatsApp-Image-2023-06-28-at-12.27.13.jpeg",
+    "filesize": 168664,
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/media/167",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/users/1"
+        }
+      ]
+    }
+  },
+  {
+    "id": 163,
+    "date": "2023-06-28T12:39:56",
+    "date_gmt": "2023-06-28T10:39:56",
+    "guid": {
+      "rendered": "https://www.castignoli.it/wp-content/uploads/2023/06/immagine.png"
+    },
+    "modified": "2023-06-28T12:39:56",
+    "modified_gmt": "2023-06-28T10:39:56",
+    "slug": "immagine",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://www.castignoli.it/immagine/",
+    "title": {
+      "rendered": "immagine"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_oct_exclude_from_cache": false
+    },
+    "class_list": [
+      "post-163",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='https://www.castignoli.it/wp-content/uploads/2023/06/immagine.png'><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"169\" src=\"https://www.castignoli.it/wp-content/uploads/2023/06/immagine-300x169.png\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://www.castignoli.it/wp-content/uploads/2023/06/immagine-300x169.png 300w, https://www.castignoli.it/wp-content/uploads/2023/06/immagine-1024x576.png 1024w, https://www.castignoli.it/wp-content/uploads/2023/06/immagine-768x432.png 768w, https://www.castignoli.it/wp-content/uploads/2023/06/immagine-1536x864.png 1536w, https://www.castignoli.it/wp-content/uploads/2023/06/immagine.png 1920w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "media_details": {
+      "width": 1920,
+      "height": 1080,
+      "file": "2023/06/immagine.png",
+      "filesize": 2590976,
+      "sizes": {
+        "medium": {
+          "file": "immagine-300x169.png",
+          "width": 300,
+          "height": 169,
+          "filesize": 113298,
+          "mime_type": "image/png",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2023/06/immagine-300x169.png"
+        },
+        "large": {
+          "file": "immagine-1024x576.png",
+          "width": 1024,
+          "height": 576,
+          "filesize": 945948,
+          "mime_type": "image/png",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2023/06/immagine-1024x576.png"
+        },
+        "thumbnail": {
+          "file": "immagine-150x150.png",
+          "width": 150,
+          "height": 150,
+          "filesize": 54313,
+          "mime_type": "image/png",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2023/06/immagine-150x150.png"
+        },
+        "medium_large": {
+          "file": "immagine-768x432.png",
+          "width": 768,
+          "height": 432,
+          "filesize": 586640,
+          "mime_type": "image/png",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2023/06/immagine-768x432.png"
+        },
+        "1536x1536": {
+          "file": "immagine-1536x864.png",
+          "width": 1536,
+          "height": 864,
+          "filesize": 1817961,
+          "mime_type": "image/png",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2023/06/immagine-1536x864.png"
+        },
+        "full": {
+          "file": "immagine.png",
+          "width": 1920,
+          "height": 1080,
+          "mime_type": "image/png",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2023/06/immagine.png"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "https://www.castignoli.it/wp-content/uploads/2023/06/immagine.png",
+    "filename": "immagine.png",
+    "filesize": 2590976,
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/media/163",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/users/1"
+        }
+      ]
+    }
+  },
+  {
+    "id": 117,
+    "date": "2022-11-23T11:07:00",
+    "date_gmt": "2022-11-23T10:07:00",
+    "guid": {
+      "rendered": "https://www.castignoli.it/wp-content/uploads/2022/11/hairesis_1.jpg"
+    },
+    "modified": "2022-11-23T11:07:00",
+    "modified_gmt": "2022-11-23T10:07:00",
+    "slug": "hairesis_1",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://www.castignoli.it/filosofeggiando/hairesis/attachment/hairesis_1/",
+    "title": {
+      "rendered": "hairesis_1"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_oct_exclude_from_cache": false
+    },
+    "class_list": [
+      "post-117",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='https://www.castignoli.it/wp-content/uploads/2022/11/hairesis_1.jpg'><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://www.castignoli.it/wp-content/uploads/2022/11/hairesis_1-300x300.jpg\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://www.castignoli.it/wp-content/uploads/2022/11/hairesis_1-300x300.jpg 300w, https://www.castignoli.it/wp-content/uploads/2022/11/hairesis_1-150x150.jpg 150w, https://www.castignoli.it/wp-content/uploads/2022/11/hairesis_1.jpg 512w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/jpeg",
+    "media_details": {
+      "width": 512,
+      "height": 512,
+      "file": "2022/11/hairesis_1.jpg",
+      "filesize": 146782,
+      "sizes": {
+        "medium": {
+          "file": "hairesis_1-300x300.jpg",
+          "width": 300,
+          "height": 300,
+          "filesize": 12927,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2022/11/hairesis_1-300x300.jpg"
+        },
+        "thumbnail": {
+          "file": "hairesis_1-150x150.jpg",
+          "width": 150,
+          "height": 150,
+          "filesize": 4893,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2022/11/hairesis_1-150x150.jpg"
+        },
+        "full": {
+          "file": "hairesis_1.jpg",
+          "width": 512,
+          "height": 512,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2022/11/hairesis_1.jpg"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": 113,
+    "source_url": "https://www.castignoli.it/wp-content/uploads/2022/11/hairesis_1.jpg",
+    "filename": "hairesis_1.jpg",
+    "filesize": 146782,
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/media/117",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/users/1"
+        }
+      ],
+      "wp:attached-to": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "id": 113,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/posts/113"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "date": "2022-10-21T12:30:42",
+    "date_gmt": "2022-10-21T10:30:42",
+    "guid": {
+      "rendered": "https://www.castignoli.it/wp-content/uploads/2022/10/banner.png"
+    },
+    "modified": "2022-10-21T12:30:42",
+    "modified_gmt": "2022-10-21T10:30:42",
+    "slug": "banner",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://www.castignoli.it/banner/",
+    "title": {
+      "rendered": "banner"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_oct_exclude_from_cache": false
+    },
+    "class_list": [
+      "post-9",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='https://www.castignoli.it/wp-content/uploads/2022/10/banner.png'><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"71\" src=\"https://www.castignoli.it/wp-content/uploads/2022/10/banner-300x71.png\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://www.castignoli.it/wp-content/uploads/2022/10/banner-300x71.png 300w, https://www.castignoli.it/wp-content/uploads/2022/10/banner-1024x241.png 1024w, https://www.castignoli.it/wp-content/uploads/2022/10/banner-768x181.png 768w, https://www.castignoli.it/wp-content/uploads/2022/10/banner-1536x361.png 1536w, https://www.castignoli.it/wp-content/uploads/2022/10/banner.png 1700w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "media_details": {
+      "width": 1700,
+      "height": 400,
+      "file": "2022/10/banner.png",
+      "filesize": 213529,
+      "sizes": {
+        "medium": {
+          "file": "banner-300x71.png",
+          "width": 300,
+          "height": 71,
+          "filesize": 17948,
+          "mime_type": "image/png",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2022/10/banner-300x71.png"
+        },
+        "large": {
+          "file": "banner-1024x241.png",
+          "width": 1024,
+          "height": 241,
+          "filesize": 112215,
+          "mime_type": "image/png",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2022/10/banner-1024x241.png"
+        },
+        "thumbnail": {
+          "file": "banner-150x150.png",
+          "width": 150,
+          "height": 150,
+          "filesize": 13534,
+          "mime_type": "image/png",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2022/10/banner-150x150.png"
+        },
+        "medium_large": {
+          "file": "banner-768x181.png",
+          "width": 768,
+          "height": 181,
+          "filesize": 72808,
+          "mime_type": "image/png",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2022/10/banner-768x181.png"
+        },
+        "1536x1536": {
+          "file": "banner-1536x361.png",
+          "width": 1536,
+          "height": 361,
+          "filesize": 206219,
+          "mime_type": "image/png",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2022/10/banner-1536x361.png"
+        },
+        "full": {
+          "file": "banner.png",
+          "width": 1700,
+          "height": 400,
+          "mime_type": "image/png",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2022/10/banner.png"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "https://www.castignoli.it/wp-content/uploads/2022/10/banner.png",
+    "filename": "banner.png",
+    "filesize": 213529,
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/media/9",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/users/1"
+        }
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "date": "2022-10-21T12:15:37",
+    "date_gmt": "2022-10-21T10:15:37",
+    "guid": {
+      "rendered": "https://www.castignoli.it/wp-content/uploads/2022/10/logo.png"
+    },
+    "modified": "2022-10-21T12:15:37",
+    "modified_gmt": "2022-10-21T10:15:37",
+    "slug": "logo",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://www.castignoli.it/logo/",
+    "title": {
+      "rendered": "logo"
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_oct_exclude_from_cache": false
+    },
+    "class_list": [
+      "post-7",
+      "attachment",
+      "type-attachment",
+      "status-inherit",
+      "hentry"
+    ],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='https://www.castignoli.it/wp-content/uploads/2022/10/logo.png'><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"286\" src=\"https://www.castignoli.it/wp-content/uploads/2022/10/logo-300x286.png\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://www.castignoli.it/wp-content/uploads/2022/10/logo-300x286.png 300w, https://www.castignoli.it/wp-content/uploads/2022/10/logo-1024x975.png 1024w, https://www.castignoli.it/wp-content/uploads/2022/10/logo-768x731.png 768w, https://www.castignoli.it/wp-content/uploads/2022/10/logo.png 1512w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "media_details": {
+      "width": 1512,
+      "height": 1440,
+      "file": "2022/10/logo.png",
+      "filesize": 1348327,
+      "sizes": {
+        "medium": {
+          "file": "logo-300x286.png",
+          "width": 300,
+          "height": 286,
+          "filesize": 113259,
+          "mime_type": "image/png",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2022/10/logo-300x286.png"
+        },
+        "large": {
+          "file": "logo-1024x975.png",
+          "width": 1024,
+          "height": 975,
+          "filesize": 734215,
+          "mime_type": "image/png",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2022/10/logo-1024x975.png"
+        },
+        "thumbnail": {
+          "file": "logo-150x150.png",
+          "width": 150,
+          "height": 150,
+          "filesize": 41418,
+          "mime_type": "image/png",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2022/10/logo-150x150.png"
+        },
+        "medium_large": {
+          "file": "logo-768x731.png",
+          "width": 768,
+          "height": 731,
+          "filesize": 469545,
+          "mime_type": "image/png",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2022/10/logo-768x731.png"
+        },
+        "full": {
+          "file": "logo.png",
+          "width": 1512,
+          "height": 1440,
+          "mime_type": "image/png",
+          "source_url": "https://www.castignoli.it/wp-content/uploads/2022/10/logo.png"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "https://www.castignoli.it/wp-content/uploads/2022/10/logo.png",
+    "filename": "logo.png",
+    "filesize": 1348327,
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/media/7",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/users/1"
+        }
+      ]
+    }
+  }
+]

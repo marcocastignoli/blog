@@ -1,0 +1,50 @@
+[
+  {
+    "id": "tecnologia",
+    "slug": { "it": "tecnologia", "en": "technology" },
+    "name": { "it": "Tecnologia", "en": "Technology" },
+    "wordpress": ["tecnologia", "uncategorised"],
+    "accent": "#1f6feb",
+    "theme": "tech"
+  },
+  {
+    "id": "idee",
+    "slug": { "it": "idee", "en": "ideas" },
+    "name": { "it": "Idee", "en": "Ideas" },
+    "wordpress": ["ideas", "idee"],
+    "accent": "#b7791f",
+    "theme": "ideas"
+  },
+  {
+    "id": "diario-di-viaggio",
+    "slug": { "it": "diario-di-viaggio", "en": "travel-diary" },
+    "name": { "it": "Diario di viaggio", "en": "Travel diary" },
+    "wordpress": ["diario-di-viaggio"],
+    "accent": "#2f855a",
+    "theme": "travel-diary"
+  },
+  {
+    "id": "brevi-racconti",
+    "slug": { "it": "brevi-racconti", "en": "short-stories" },
+    "name": { "it": "Brevi racconti", "en": "Short stories" },
+    "wordpress": ["brevi-racconti"],
+    "accent": "#9b2c2c",
+    "theme": "short-story"
+  },
+  {
+    "id": "filosofeggiando",
+    "slug": { "it": "filosofeggiando", "en": "philosophising" },
+    "name": { "it": "Filosofeggiando", "en": "Philosophising" },
+    "wordpress": ["filosofeggiando"],
+    "accent": "#6b46c1",
+    "theme": "philosophy"
+  },
+  {
+    "id": "podcast",
+    "slug": { "it": "podcast", "en": "podcast" },
+    "name": { "it": "Podcast", "en": "Podcast" },
+    "wordpress": ["podcast"],
+    "accent": "#2c7a7b",
+    "theme": "podcast"
+  }
+]

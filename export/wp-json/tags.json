@@ -1,0 +1,222 @@
+[
+  {
+    "id": 12,
+    "count": 0,
+    "description": "",
+    "link": "https://www.castignoli.it/tag/%e2%ad%90/",
+    "name": "⭐",
+    "slug": "%e2%ad%90",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/tags/12",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/posts?tags=12"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "count": 0,
+    "description": "",
+    "link": "https://www.castignoli.it/tag/%e2%ad%90%e2%ad%90/",
+    "name": "⭐⭐",
+    "slug": "%e2%ad%90%e2%ad%90",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/tags/13",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/posts?tags=13"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "count": 0,
+    "description": "",
+    "link": "https://www.castignoli.it/tag/%e2%ad%90%e2%ad%90%e2%ad%90/",
+    "name": "⭐⭐⭐",
+    "slug": "%e2%ad%90%e2%ad%90%e2%ad%90",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/tags/14",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/posts?tags=14"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "count": 0,
+    "description": "",
+    "link": "https://www.castignoli.it/tag/%e2%ad%90%e2%ad%90%e2%ad%90%e2%ad%90/",
+    "name": "⭐⭐⭐⭐",
+    "slug": "%e2%ad%90%e2%ad%90%e2%ad%90%e2%ad%90",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/tags/15",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/posts?tags=15"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "count": 0,
+    "description": "",
+    "link": "https://www.castignoli.it/tag/%e2%ad%90%e2%ad%90%e2%ad%90%e2%ad%90%e2%ad%90/",
+    "name": "⭐⭐⭐⭐⭐",
+    "slug": "%e2%ad%90%e2%ad%90%e2%ad%90%e2%ad%90%e2%ad%90",
+    "taxonomy": "post_tag",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/tags/11",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/tags"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/taxonomies/post_tag"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/posts?tags=11"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

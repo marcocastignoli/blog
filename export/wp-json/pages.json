@@ -1,0 +1,1140 @@
+[
+  {
+    "id": 286,
+    "date": "2025-11-03T10:29:43",
+    "date_gmt": "2025-11-03T09:29:43",
+    "guid": {
+      "rendered": "https://www.castignoli.it/events/my-bookings/"
+    },
+    "modified": "2025-11-03T10:29:43",
+    "modified_gmt": "2025-11-03T09:29:43",
+    "slug": "my-bookings",
+    "status": "publish",
+    "type": "page",
+    "link": "https://www.castignoli.it/events/my-bookings/",
+    "title": {
+      "rendered": "My Bookings"
+    },
+    "content": {
+      "rendered": "<p>CONTENTS</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>CONTENTS</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 282,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_oct_exclude_from_cache": false,
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-286",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/pages/286",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/comments?post=286"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/pages/286/revisions"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/pages/282"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/media?parent=286"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    },
+    "_embedded": {
+      "author": [
+        {
+          "id": 1,
+          "name": "Marco Castignoli",
+          "url": "https://www.castignoli.it",
+          "description": "",
+          "link": "https://www.castignoli.it/author/admin/",
+          "slug": "admin",
+          "avatar_urls": {
+            "24": "https://secure.gravatar.com/avatar/d945b5e9933ee11395e3953b95cea63da829c99db9c721338eb570e27123e991?s=24&d=mm&r=g",
+            "48": "https://secure.gravatar.com/avatar/d945b5e9933ee11395e3953b95cea63da829c99db9c721338eb570e27123e991?s=48&d=mm&r=g",
+            "96": "https://secure.gravatar.com/avatar/d945b5e9933ee11395e3953b95cea63da829c99db9c721338eb570e27123e991?s=96&d=mm&r=g"
+          },
+          "_links": {
+            "self": [
+              {
+                "href": "https://www.castignoli.it/wp-json/wp/v2/users/1",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://www.castignoli.it/wp-json/wp/v2/users"
+              }
+            ]
+          }
+        }
+      ],
+      "replies": [
+        {
+          "code": "rest_comment_disabled",
+          "message": "Comments are disabled.",
+          "data": {
+            "status": 403
+          }
+        }
+      ],
+      "up": [
+        {
+          "id": 282,
+          "date": "2025-11-03T10:29:43",
+          "slug": "events",
+          "type": "page",
+          "link": "https://www.castignoli.it/events/",
+          "title": {
+            "rendered": "Events"
+          },
+          "excerpt": {
+            "rendered": "<p>CONTENTS</p>\n",
+            "protected": false
+          },
+          "author": 1,
+          "featured_media": 0,
+          "_links": {
+            "self": [
+              {
+                "href": "https://www.castignoli.it/wp-json/wp/v2/pages/282",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://www.castignoli.it/wp-json/wp/v2/pages"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://www.castignoli.it/wp-json/wp/v2/types/page"
+              }
+            ],
+            "author": [
+              {
+                "embeddable": true,
+                "href": "https://www.castignoli.it/wp-json/wp/v2/users/1"
+              }
+            ],
+            "replies": [
+              {
+                "embeddable": true,
+                "href": "https://www.castignoli.it/wp-json/wp/v2/comments?post=282"
+              }
+            ],
+            "version-history": [
+              {
+                "count": 0,
+                "href": "https://www.castignoli.it/wp-json/wp/v2/pages/282/revisions"
+              }
+            ],
+            "wp:attachment": [
+              {
+                "href": "https://www.castignoli.it/wp-json/wp/v2/media?parent=282"
+              }
+            ],
+            "curies": [
+              {
+                "name": "wp",
+                "href": "https://api.w.org/{rel}",
+                "templated": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 285,
+    "date": "2025-11-03T10:29:43",
+    "date_gmt": "2025-11-03T09:29:43",
+    "guid": {
+      "rendered": "https://www.castignoli.it/events/tags/"
+    },
+    "modified": "2025-11-03T10:29:43",
+    "modified_gmt": "2025-11-03T09:29:43",
+    "slug": "tags",
+    "status": "publish",
+    "type": "page",
+    "link": "https://www.castignoli.it/events/tags/",
+    "title": {
+      "rendered": "Tags"
+    },
+    "content": {
+      "rendered": "<p>CONTENTS</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>CONTENTS</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 282,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_oct_exclude_from_cache": false,
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-285",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/pages/285",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/comments?post=285"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/pages/285/revisions"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/pages/282"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/media?parent=285"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    },
+    "_embedded": {
+      "author": [
+        {
+          "id": 1,
+          "name": "Marco Castignoli",
+          "url": "https://www.castignoli.it",
+          "description": "",
+          "link": "https://www.castignoli.it/author/admin/",
+          "slug": "admin",
+          "avatar_urls": {
+            "24": "https://secure.gravatar.com/avatar/d945b5e9933ee11395e3953b95cea63da829c99db9c721338eb570e27123e991?s=24&d=mm&r=g",
+            "48": "https://secure.gravatar.com/avatar/d945b5e9933ee11395e3953b95cea63da829c99db9c721338eb570e27123e991?s=48&d=mm&r=g",
+            "96": "https://secure.gravatar.com/avatar/d945b5e9933ee11395e3953b95cea63da829c99db9c721338eb570e27123e991?s=96&d=mm&r=g"
+          },
+          "_links": {
+            "self": [
+              {
+                "href": "https://www.castignoli.it/wp-json/wp/v2/users/1",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://www.castignoli.it/wp-json/wp/v2/users"
+              }
+            ]
+          }
+        }
+      ],
+      "replies": [
+        {
+          "code": "rest_comment_disabled",
+          "message": "Comments are disabled.",
+          "data": {
+            "status": 403
+          }
+        }
+      ],
+      "up": [
+        {
+          "id": 282,
+          "date": "2025-11-03T10:29:43",
+          "slug": "events",
+          "type": "page",
+          "link": "https://www.castignoli.it/events/",
+          "title": {
+            "rendered": "Events"
+          },
+          "excerpt": {
+            "rendered": "<p>CONTENTS</p>\n",
+            "protected": false
+          },
+          "author": 1,
+          "featured_media": 0,
+          "_links": {
+            "self": [
+              {
+                "href": "https://www.castignoli.it/wp-json/wp/v2/pages/282",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://www.castignoli.it/wp-json/wp/v2/pages"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://www.castignoli.it/wp-json/wp/v2/types/page"
+              }
+            ],
+            "author": [
+              {
+                "embeddable": true,
+                "href": "https://www.castignoli.it/wp-json/wp/v2/users/1"
+              }
+            ],
+            "replies": [
+              {
+                "embeddable": true,
+                "href": "https://www.castignoli.it/wp-json/wp/v2/comments?post=282"
+              }
+            ],
+            "version-history": [
+              {
+                "count": 0,
+                "href": "https://www.castignoli.it/wp-json/wp/v2/pages/282/revisions"
+              }
+            ],
+            "wp:attachment": [
+              {
+                "href": "https://www.castignoli.it/wp-json/wp/v2/media?parent=282"
+              }
+            ],
+            "curies": [
+              {
+                "name": "wp",
+                "href": "https://api.w.org/{rel}",
+                "templated": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 284,
+    "date": "2025-11-03T10:29:43",
+    "date_gmt": "2025-11-03T09:29:43",
+    "guid": {
+      "rendered": "https://www.castignoli.it/events/categories/"
+    },
+    "modified": "2025-11-03T10:29:43",
+    "modified_gmt": "2025-11-03T09:29:43",
+    "slug": "categories",
+    "status": "publish",
+    "type": "page",
+    "link": "https://www.castignoli.it/events/categories/",
+    "title": {
+      "rendered": "Categories"
+    },
+    "content": {
+      "rendered": "<p>CONTENTS</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>CONTENTS</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 282,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_oct_exclude_from_cache": false,
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-284",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/pages/284",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/comments?post=284"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/pages/284/revisions"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/pages/282"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/media?parent=284"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    },
+    "_embedded": {
+      "author": [
+        {
+          "id": 1,
+          "name": "Marco Castignoli",
+          "url": "https://www.castignoli.it",
+          "description": "",
+          "link": "https://www.castignoli.it/author/admin/",
+          "slug": "admin",
+          "avatar_urls": {
+            "24": "https://secure.gravatar.com/avatar/d945b5e9933ee11395e3953b95cea63da829c99db9c721338eb570e27123e991?s=24&d=mm&r=g",
+            "48": "https://secure.gravatar.com/avatar/d945b5e9933ee11395e3953b95cea63da829c99db9c721338eb570e27123e991?s=48&d=mm&r=g",
+            "96": "https://secure.gravatar.com/avatar/d945b5e9933ee11395e3953b95cea63da829c99db9c721338eb570e27123e991?s=96&d=mm&r=g"
+          },
+          "_links": {
+            "self": [
+              {
+                "href": "https://www.castignoli.it/wp-json/wp/v2/users/1",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://www.castignoli.it/wp-json/wp/v2/users"
+              }
+            ]
+          }
+        }
+      ],
+      "replies": [
+        {
+          "code": "rest_comment_disabled",
+          "message": "Comments are disabled.",
+          "data": {
+            "status": 403
+          }
+        }
+      ],
+      "up": [
+        {
+          "id": 282,
+          "date": "2025-11-03T10:29:43",
+          "slug": "events",
+          "type": "page",
+          "link": "https://www.castignoli.it/events/",
+          "title": {
+            "rendered": "Events"
+          },
+          "excerpt": {
+            "rendered": "<p>CONTENTS</p>\n",
+            "protected": false
+          },
+          "author": 1,
+          "featured_media": 0,
+          "_links": {
+            "self": [
+              {
+                "href": "https://www.castignoli.it/wp-json/wp/v2/pages/282",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://www.castignoli.it/wp-json/wp/v2/pages"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://www.castignoli.it/wp-json/wp/v2/types/page"
+              }
+            ],
+            "author": [
+              {
+                "embeddable": true,
+                "href": "https://www.castignoli.it/wp-json/wp/v2/users/1"
+              }
+            ],
+            "replies": [
+              {
+                "embeddable": true,
+                "href": "https://www.castignoli.it/wp-json/wp/v2/comments?post=282"
+              }
+            ],
+            "version-history": [
+              {
+                "count": 0,
+                "href": "https://www.castignoli.it/wp-json/wp/v2/pages/282/revisions"
+              }
+            ],
+            "wp:attachment": [
+              {
+                "href": "https://www.castignoli.it/wp-json/wp/v2/media?parent=282"
+              }
+            ],
+            "curies": [
+              {
+                "name": "wp",
+                "href": "https://api.w.org/{rel}",
+                "templated": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 283,
+    "date": "2025-11-03T10:29:43",
+    "date_gmt": "2025-11-03T09:29:43",
+    "guid": {
+      "rendered": "https://www.castignoli.it/events/locations/"
+    },
+    "modified": "2025-11-03T10:29:43",
+    "modified_gmt": "2025-11-03T09:29:43",
+    "slug": "locations",
+    "status": "publish",
+    "type": "page",
+    "link": "https://www.castignoli.it/events/locations/",
+    "title": {
+      "rendered": "Locations"
+    },
+    "content": {
+      "rendered": "<p>CONTENTS</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>CONTENTS</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 282,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_oct_exclude_from_cache": false,
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-283",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/pages/283",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/comments?post=283"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/pages/283/revisions"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/pages/282"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/media?parent=283"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    },
+    "_embedded": {
+      "author": [
+        {
+          "id": 1,
+          "name": "Marco Castignoli",
+          "url": "https://www.castignoli.it",
+          "description": "",
+          "link": "https://www.castignoli.it/author/admin/",
+          "slug": "admin",
+          "avatar_urls": {
+            "24": "https://secure.gravatar.com/avatar/d945b5e9933ee11395e3953b95cea63da829c99db9c721338eb570e27123e991?s=24&d=mm&r=g",
+            "48": "https://secure.gravatar.com/avatar/d945b5e9933ee11395e3953b95cea63da829c99db9c721338eb570e27123e991?s=48&d=mm&r=g",
+            "96": "https://secure.gravatar.com/avatar/d945b5e9933ee11395e3953b95cea63da829c99db9c721338eb570e27123e991?s=96&d=mm&r=g"
+          },
+          "_links": {
+            "self": [
+              {
+                "href": "https://www.castignoli.it/wp-json/wp/v2/users/1",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://www.castignoli.it/wp-json/wp/v2/users"
+              }
+            ]
+          }
+        }
+      ],
+      "replies": [
+        {
+          "code": "rest_comment_disabled",
+          "message": "Comments are disabled.",
+          "data": {
+            "status": 403
+          }
+        }
+      ],
+      "up": [
+        {
+          "id": 282,
+          "date": "2025-11-03T10:29:43",
+          "slug": "events",
+          "type": "page",
+          "link": "https://www.castignoli.it/events/",
+          "title": {
+            "rendered": "Events"
+          },
+          "excerpt": {
+            "rendered": "<p>CONTENTS</p>\n",
+            "protected": false
+          },
+          "author": 1,
+          "featured_media": 0,
+          "_links": {
+            "self": [
+              {
+                "href": "https://www.castignoli.it/wp-json/wp/v2/pages/282",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://www.castignoli.it/wp-json/wp/v2/pages"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://www.castignoli.it/wp-json/wp/v2/types/page"
+              }
+            ],
+            "author": [
+              {
+                "embeddable": true,
+                "href": "https://www.castignoli.it/wp-json/wp/v2/users/1"
+              }
+            ],
+            "replies": [
+              {
+                "embeddable": true,
+                "href": "https://www.castignoli.it/wp-json/wp/v2/comments?post=282"
+              }
+            ],
+            "version-history": [
+              {
+                "count": 0,
+                "href": "https://www.castignoli.it/wp-json/wp/v2/pages/282/revisions"
+              }
+            ],
+            "wp:attachment": [
+              {
+                "href": "https://www.castignoli.it/wp-json/wp/v2/media?parent=282"
+              }
+            ],
+            "curies": [
+              {
+                "name": "wp",
+                "href": "https://api.w.org/{rel}",
+                "templated": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 282,
+    "date": "2025-11-03T10:29:43",
+    "date_gmt": "2025-11-03T09:29:43",
+    "guid": {
+      "rendered": "https://www.castignoli.it/events/"
+    },
+    "modified": "2025-11-03T10:29:43",
+    "modified_gmt": "2025-11-03T09:29:43",
+    "slug": "events",
+    "status": "publish",
+    "type": "page",
+    "link": "https://www.castignoli.it/events/",
+    "title": {
+      "rendered": "Events"
+    },
+    "content": {
+      "rendered": "<p>CONTENTS</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>CONTENTS</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_oct_exclude_from_cache": false,
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-282",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/pages/282",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/comments?post=282"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/pages/282/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/media?parent=282"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    },
+    "_embedded": {
+      "author": [
+        {
+          "id": 1,
+          "name": "Marco Castignoli",
+          "url": "https://www.castignoli.it",
+          "description": "",
+          "link": "https://www.castignoli.it/author/admin/",
+          "slug": "admin",
+          "avatar_urls": {
+            "24": "https://secure.gravatar.com/avatar/d945b5e9933ee11395e3953b95cea63da829c99db9c721338eb570e27123e991?s=24&d=mm&r=g",
+            "48": "https://secure.gravatar.com/avatar/d945b5e9933ee11395e3953b95cea63da829c99db9c721338eb570e27123e991?s=48&d=mm&r=g",
+            "96": "https://secure.gravatar.com/avatar/d945b5e9933ee11395e3953b95cea63da829c99db9c721338eb570e27123e991?s=96&d=mm&r=g"
+          },
+          "_links": {
+            "self": [
+              {
+                "href": "https://www.castignoli.it/wp-json/wp/v2/users/1",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://www.castignoli.it/wp-json/wp/v2/users"
+              }
+            ]
+          }
+        }
+      ],
+      "replies": [
+        {
+          "code": "rest_comment_disabled",
+          "message": "Comments are disabled.",
+          "data": {
+            "status": 403
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "date": "2022-10-21T11:13:32",
+    "date_gmt": "2022-10-21T10:13:32",
+    "guid": {
+      "rendered": "https://www.castignoli.it/?page_id=2"
+    },
+    "modified": "2025-06-15T18:45:28",
+    "modified_gmt": "2025-06-15T16:45:28",
+    "slug": "poesie",
+    "status": "publish",
+    "type": "page",
+    "link": "https://www.castignoli.it/poesie/",
+    "title": {
+      "rendered": "Poesie"
+    },
+    "content": {
+      "rendered": "\n<div class=\"wp-block-group is-layout-flow wp-block-group-is-layout-flow\">\n<h4 class=\"wp-block-heading\">Una sfarzosa festa per il nostro amore semplice</h4>\n\n\n\n<p class=\"wp-block-paragraph\">Questo nostro amore semplice<br>è fatto di albe ormai lontane<br>in bar ormai vuoti<br>a guardarci negli occhi<br>a ridere o consolarci.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Ma se il mondo sapesse<br>l&#8217;amore che abbiamo dentro…<br>si appenderebbero pomposi lampadari,<br>e mille danzatori e musicanti<br>ci seguirebbero in cortei infiniti<br>in una sfarzosa festa per il nostro amore semplice.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Ti prometto che dentro di me,<br>questa festa continuerà per sempre.</p>\n\n\n\n<p class=\"wp-block-paragraph\">E quando il corteo incontrerà qualche imprevisto,<br>prometto di affrontarlo insieme a te e consolarti.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Ci saranno danze interminabili,<br>e prometto di danzare sempre insieme a te.<br>Ma ogni tanto mi fermerò a guardarti,<br>perché amo vederti danzare.</p>\n\n\n\n<p class=\"wp-block-paragraph\">E quando la folla si farà densa e assordante<br>ti prometto di non lasciarti mai la mano<br>e restare sempre al tuo fianco.</p>\n\n\n\n<p class=\"wp-block-paragraph\">E quando ce ne sarà bisogno,<br>comprerò una lettiga d&#8217;oro ai nostri figli.<br>Ti prometto che li porterò sempre sulle spalle<br>E ti prometto di crescerli ed educarli nei nostri valori.</p>\n\n\n\n<p class=\"wp-block-paragraph\">E tra molto tempo, vecchi e sudati,<br>la sfarzosa festa non accennerà a spegnersi.<br>Ti prometto di continuare a festeggiare per sempre,<br>in salute o in malattia, insieme a te.</p>\n\n\n\n<h4 class=\"wp-block-heading\">Chi è vivo</h4>\n\n\n\n<p class=\"wp-block-paragraph\">È il bambino il saggio,<br>al concetto associa stupore<br>e all’esperienza emozione.<br><br>Scopri ogni forma<br>d’ogni atomo del mare,<br>e lui le sente, vive.<br><br>Confinati all’apparenza,<br>abbandonati alla fiducia,<br>e liberi. Semplicemente, siamo.</p>\n</div>\n\n\n\n<div class=\"wp-block-group is-layout-flow wp-block-group-is-layout-flow\">\n<h4 class=\"wp-block-heading\">Coscienza</h4>\n\n\n\n<p class=\"wp-block-paragraph\">Siamo polvere.<br>polvere che vola, riempie.<br>Illuminati da luce tenue,<br>in quel sottile raggio,<br>splendiamo come Stelle.</p>\n\n\n\n<h3 class=\"wp-block-heading\">Riflesso</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Vedo il cielo<br>dal suo riflesso<br>piccole vibrazioni<br>mi offuscano la vista<br>dalla vita poggiata, condannata<br>scopro l&#8217;illusione.<br>Finalmente, mostro innocente,<br>lontano gli istinti animali,<br>uccido di più, anche sazio.<br>Complice silenzioso<br>di quelle onde<br>che accontentano e spengono.<br>Anche qui, ora,<br>in cielo, salvo solo me stesso<br>sono quindi meglio?<br>Allora trovo conforto<br>in un futuro incerto,<br>un&#8217;altra onda<br>nel lago in cui mi osservo.</p>\n</div>\n\n\n\n<div class=\"wp-block-group is-layout-flow wp-block-group-is-layout-flow\">\n<h4 class=\"wp-block-heading\">Eternità</h4>\n\n\n\n<p class=\"wp-block-paragraph\">Scrivere, sulle pagine del tempo<br>Parole, pur essendo le stesse<br>Note distinte, cantano la melodia<br>Eterna.</p>\n</div>\n\n\n\n<div class=\"wp-block-group is-layout-flow wp-block-group-is-layout-flow\">\n<h4 class=\"wp-block-heading\">Un poeta</h4>\n\n\n\n<p class=\"wp-block-paragraph\">Rivivo emozioni,<br>senza ricordi.<br>E quando le sento,<br>penso, e le perdo.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Un poeta si perde,<br>è coraggio o talento?<br>E attendo, nel dubbio,<br>quei misteriosi attimi.</p>\n</div>\n\n\n\n<div class=\"wp-block-group is-layout-flow wp-block-group-is-layout-flow\">\n<h4 class=\"wp-block-heading\">Poeta e Scienziato</h4>\n\n\n\n<p class=\"wp-block-paragraph\">E se il bambino avesse ragione,<br>ma non avesse parole per dirlo?</p>\n</div>\n\n\n\n<div class=\"wp-block-group is-layout-flow wp-block-group-is-layout-flow\">\n<h4 class=\"wp-block-heading\">La falena</h4>\n\n\n\n<p class=\"wp-block-paragraph\">Prima, fanciullo, ti smuovevo.<br>Vivace giocavamo; ora anche io ho sonno, e ti invidio, falena.<br>Te sempre pura, io confuso dalla vita,<br>vorrei che ora fossi te a svegliarmi dal mio incubo segreto.</p>\n</div>\n\n\n\n<div class=\"wp-block-group is-layout-flow wp-block-group-is-layout-flow\">\n<h4 class=\"wp-block-heading\">Mentre ascolto</h4>\n\n\n\n<p class=\"wp-block-paragraph\">Le parole scappano, corrono via, si rifugiano.<br>Sono sotto i sassi del fiume,<br>tra le foglie, nelle ceneri.</p>\n\n\n\n<p class=\"wp-block-paragraph\">E i pensieri, che possono, vanno verso il cielo.<br>Passano davanti alle stelle,<br>si schiantano, poi scivolano via, cercando di non fare rumore.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Ma li senti,<br>e che rimane di questo vuoto?<br>Vita.</p>\n\n\n\n<p class=\"wp-block-paragraph\">È la lacrima,<br>il sorriso.<br>Mentre ascolto.</p>\n</div>\n\n\n\n<div class=\"wp-block-group is-layout-flow wp-block-group-is-layout-flow\">\n<h4 class=\"wp-block-heading\">Il fruscio</h4>\n\n\n\n<p class=\"wp-block-paragraph\">Sottofondo della notte,<br>il fruscio diventa solista.</p>\n\n\n\n<p class=\"wp-block-paragraph\">L&#8217;albero intreccia e colora i rami,<br>senza foglie non è che silenzio.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Allora meglio uno stelo d&#8217;erba.<br>D&#8217;un colore.<br>D&#8217;un segmento.<br>Nell&#8217;orchestra fa quell&#8217;amore che ho bisogno.</p>\n</div>\n\n\n\n<div class=\"wp-block-group is-layout-flow wp-block-group-is-layout-flow\">\n<h4 class=\"wp-block-heading\">Amore</h4>\n\n\n\n<p class=\"wp-block-paragraph\">Una luce misteriosa,<br>in mezzo al bosco più fitto,<br>illumina i demoni<br>dai quali ti salva.</p>\n</div>\n\n\n\n<div class=\"wp-block-group is-layout-flow wp-block-group-is-layout-flow\">\n<h4 class=\"wp-block-heading\">Poesia falsa</h4>\n\n\n\n<p class=\"wp-block-paragraph\">I miei istinti<br>sovrani e ingenui<br>come pallido rosso<br>vincono l&#8217;eternitá.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Queste parole<br>uccidono l&#8217;anima<br>in un dibattito onesto<br>di poesia falsa.</p>\n</div>\n\n\n\n<div class=\"wp-block-group is-layout-flow wp-block-group-is-layout-flow\">\n<h4 class=\"wp-block-heading\">&nbsp;Sono i graffi del vinile</h4>\n\n\n\n<p class=\"wp-block-paragraph\">Sono i graffi del vinile<br>come tagli profondi<br>lacerano la musica che t’aspetti.<br>Infine che sono,<br>se non altre incisioni?<br>Non è di suono che vivono,<br>ma di ricordi.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Sono i graffi del vinile<br>come onde leggere<br>infrangono l’illusione che t’aspetti.<br>Dall’inizio che altro erano,<br>se non un segreto nascosto?<br>Non è di suono che vivo,<br>ma di Dio.</p>\n</div>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Una sfarzosa festa per il nostro amore semplice Questo nostro amore sempliceè fatto di albe ormai lontanein bar ormai vuotia guardarci negli occhia ridere o consolarci. Ma se il mondo sapessel&#8217;amore che abbiamo dentro…si appenderebbero pomposi lampadari,e mille danzatori e musicantici seguirebbero in cortei infinitiin una sfarzosa festa per il nostro amore semplice. Ti prometto [&hellip;]</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "open",
+    "template": "",
+    "meta": {
+      "_oct_exclude_from_cache": false,
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-2",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/pages/2",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/comments?post=2"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 8,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/pages/2/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 279,
+          "href": "https://www.castignoli.it/wp-json/wp/v2/pages/2/revisions/279"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.castignoli.it/wp-json/wp/v2/media?parent=2"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    },
+    "_embedded": {
+      "author": [
+        {
+          "id": 1,
+          "name": "Marco Castignoli",
+          "url": "https://www.castignoli.it",
+          "description": "",
+          "link": "https://www.castignoli.it/author/admin/",
+          "slug": "admin",
+          "avatar_urls": {
+            "24": "https://secure.gravatar.com/avatar/d945b5e9933ee11395e3953b95cea63da829c99db9c721338eb570e27123e991?s=24&d=mm&r=g",
+            "48": "https://secure.gravatar.com/avatar/d945b5e9933ee11395e3953b95cea63da829c99db9c721338eb570e27123e991?s=48&d=mm&r=g",
+            "96": "https://secure.gravatar.com/avatar/d945b5e9933ee11395e3953b95cea63da829c99db9c721338eb570e27123e991?s=96&d=mm&r=g"
+          },
+          "_links": {
+            "self": [
+              {
+                "href": "https://www.castignoli.it/wp-json/wp/v2/users/1",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://www.castignoli.it/wp-json/wp/v2/users"
+              }
+            ]
+          }
+        }
+      ],
+      "replies": [
+        {
+          "code": "rest_comment_disabled",
+          "message": "Comments are disabled.",
+          "data": {
+            "status": 403
+          }
+        }
+      ]
+    }
+  }
+]

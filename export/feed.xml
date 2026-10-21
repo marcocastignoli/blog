@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>castignoli.it</title>
+	<atom:link href="https://www.castignoli.it/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.castignoli.it</link>
+	<description></description>
+	<lastBuildDate>Tue, 06 Oct 2026 11:51:11 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=7.1.3</generator>
+
+<image>
+	<url>https://www-static.castignoli.it/wp-content/uploads/2022/10/logo-150x150.png</url>
+	<title>castignoli.it</title>
+	<link>https://www.castignoli.it</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>My own personal whim, ditching all my devices for my phone</title>
+		<link>https://www.castignoli.it/tecnologia/my-own-personal-whim-ditching-all-my-devices-for-my-phone/</link>
+		
+		<dc:creator><![CDATA[Marco Castignoli]]></dc:creator>
+		<pubDate>Tue, 06 Oct 2026 09:49:12 +0000</pubDate>
+				<category><![CDATA[Tecnologia]]></category>
+		<guid isPermaLink="false">https://www.castignoli.it/?p=299</guid>
+
+					<description><![CDATA[I&#8217;m a software developer, a tech nerd and I play video-games. But most importantly when it comes to things I love, I&#8217;m one of the most stubborn people I know, and I don&#8217;t mean stubborn in an elegant way, I&#8217;m quite a messy person, but if I want to get something done, in one way [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">I&#8217;m <a href="https://github.com/marcocastignoli/">a software developer</a>, a tech nerd and I play video-games. But most importantly when it comes to things I love, I&#8217;m one of the most stubborn people I know, and I don&#8217;t mean stubborn in an elegant way, I&#8217;m quite a messy person, but if I want to get something done, in one way or another, I get it done.</p>
+
+
+
+<p class="wp-block-paragraph">Since I had <a href="https://en.wikipedia.org/wiki/Cydia">Cydia</a> on my second generation iPod Touch as a teenager, I fell in love with making systems do what they are not supposed to do. That&#8217;s where the idea of a single device for everything came from. We call our phones, wrongly, phones. But it&#8217;s quite evident that they are very capable computers, it&#8217;s just their software that ( for some good UX reasons) is completely locked up.</p>
+
+
+
+<p class="wp-block-paragraph">In high school, I was so excited to play with <a href="https://xdaforums.com/t/app-linux-on-android-project-complete-linux-installer.1585009/">Linux-on-Android</a>, but the experience was, and still is, terrible in my opinion. Recently I tried Google&#8217;s built in Linux Terminal and Termux with proot-distro, but both feel very fragile, and running my full set of x64 applications on Linux Arm is still a dream.</p>
+
+
+
+<p class="wp-block-paragraph">In 2026, when it was time for me to replace my 16GB laptop for gaming and my 16GB MacBook Air M2, I searched for good deals online, but I got scared by today&#8217;s RAM and GPU pricing. I decided to postpone upgrading my gaming laptop (it wasn&#8217;t really necessary) and to use a VPS with remote desktop as my working setup. I rented a VPS on Netcup, and heavily used AI to configure it. Of course in the back of my mind, I knew I could run the remote desktop client on my phone.</p>
+
+
+
+<h3 class="wp-block-heading">Remote working station</h3>
+
+
+
+<p class="wp-block-paragraph">First of all I needed to choose the best remote desktop streaming configuration, for the love of open source I went with <a href="https://github.com/lizardbyte/sunshine">Moonlight and Sunshine</a>. I asked my LLM to set up everything for me, and it created several desktop environments for me depending on the screen size and network connection. When I&#8217;m at home I work on a Samsung G8 monitor and when I&#8217;m traveling on my MacBook screen.</p>
+
+
+
+<figure class="wp-block-image size-full"><img fetchpriority="high" decoding="async" width="907" height="304" src="https://www-static.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-411.jpg" alt="" class="wp-image-302" srcset="https://www-static.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-411.jpg 907w, https://www-static.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-411-300x101.jpg 300w, https://www-static.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_08-38-411-768x257.jpg 768w" sizes="(max-width: 907px) 100vw, 907px" /></figure>
+
+
+
+<p class="wp-block-paragraph">Results are great! With my MacBook light configuration I get 60fps, and a latency of 30ms while connected to my home internet connection. I live in the Italian countryside and use <a href="https://it-wikipedia-org.translate.goog/wiki/Eolo_(azienda)?_x_tr_sl=it&amp;_x_tr_tl=en&amp;_x_tr_hl=it&amp;_x_tr_pto=wapp">Eolo</a> as my Internet provider. With my phone&#8217;s connection over 5G I get similar results, of course depending on the signal strength.</p>
+
+
+
+<h3 class="wp-block-heading">Samsung DeX</h3>
+
+
+
+<p class="wp-block-paragraph">Around the same time, while I was avoiding spending thousands of euros on upgrading my machines, Reddit&#8217;s feed did its job and showed me posts about foldables, in particular about the Samsung Fold 8. I&#8217;m well aware that paying 2k for a smartphone given what I said above doesn&#8217;t really make sense. But I&#8217;m a tech nerd, and a weak human, I really loved the Fold 8&#8217;s screen ratio and I&#8217;ve always been fascinated by foldables but have never owned one.</p>
+
+
+
+<p class="wp-block-paragraph">I made the crazy purchase, and told my AI to add another sunshine configuration for my Fold 8, and boom, I had a full flagship Linux machine &#8220;running&#8221; on a 7.6-inch display. But most importantly, Samsung ships the best, imho, Android to desktop app: DeX. Compared to Google&#8217;s similar functionality, it makes the Google one feel like a beta built as a high school project. That said, DeX also has a long way to go before it feels production-ready, but at least it&#8217;s usable.</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="429" src="https://www-static.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_09-00-19-1024x429.jpg" alt="" class="wp-image-303" srcset="https://www-static.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_09-00-19-1024x429.jpg 1024w, https://www-static.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_09-00-19-300x126.jpg 300w, https://www-static.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_09-00-19-768x322.jpg 768w, https://www-static.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_09-00-19.jpg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Samsung DeX connected to Samsung G8 (4k@60fps)</figcaption></figure>
+
+
+
+<h3 class="wp-block-heading">Gaming on the Fold 8</h3>
+
+
+
+<p class="wp-block-paragraph">As I said I enjoy playing video games, or I should say, I enjoy playing World of Warcraft. I&#8217;m the worst player, but I love leveling with friends, it really helps me detach from everyday thoughts.</p>
+
+
+
+<p class="wp-block-paragraph">Given the big screen and good performance of my phone I decided to use LLMs to finally get Wow running on Android in an easy way. So I vibecoded <a href="https://github.com/marcocastignoli/wow-mobile">Wow Mobile</a>, and it works so well: it&#8217;s amazing how weeks of work can be done in an afternoon as a background task. I think vibecoding is so hated just because it&#8217;s being used by non software developers to build &#8220;production ready&#8221; apps. But when you put vibecoding in the hands of a developer and the objective is to build a hobby app or prototype, it becomes magical.</p>
+
+
+
+<figure class="wp-block-video"><video height="966" style="aspect-ratio: 1280 / 966;" width="1280" controls src="https://www-static.castignoli.it/wp-content/uploads/2026/10/video_2026-10-06_09-21-34.mp4"></video></figure>
+
+
+
+<p class="wp-block-paragraph">I also tried cloud gaming via GeForce NOW, but I can&#8217;t really get used to it. It works but that small lag really drives me crazy while gaming.</p>
+
+
+
+<h3 class="wp-block-heading">A world of agents</h3>
+
+
+
+<p class="wp-block-paragraph">Vibecoding is great but when it comes to writing production-grade software, a human has to review every line of code, and steer the LLM in the right direction. There are a ton of <a href="https://github.com/1shiharat/awesome-agent-clients">agent tools</a>, probably each one of them vibecoded by their maintainer, and it&#8217;s ok. These tools are just wrappers around Codex or Claude Code, allowing developers to wrap their heads around multiple and fast context jumping and automating tasks.</p>
+
+
+
+<p class="wp-block-paragraph">I also built my own, but it&#8217;s so specific to my workflow that I don&#8217;t plan to publish it. Just to mention a few features:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Create rooms in which multiple LLMs, terminals or VSCode sessions can be started, context in a room is shared.</li>
+
+
+
+<li>Run SQL queries in a secure way, by encrypting the connection client side protected by biometrics. Every time an LLM wants to run a query, I see the query and accept it with my fingerprint.</li>
+
+
+
+<li>Manage <a href="https://github.com/orgs/argotorg/projects/33/views/1">my project&#8217;s board</a> for me automatically, so that every time I start/complete a task, the issue is automatically moved to the right column.</li>
+
+
+
+<li>I receive a notification every time an agent finishes working on something or needs my feedback.</li>
+
+
+
+<li>It&#8217;s installed on my VPS so it&#8217;s always active, and it can use all the tools installed on my VPS. E.g. I have ADB with wireless debugging so I can just ask an agent to do stuff on my phone for me.</li>
+
+
+
+<li>Keyboard shortcuts: if I&#8217;m using the app with my keyboard attached I just use shortcuts to move from one terminal to another in a really convenient way.</li>
+</ul>
+
+
+
+<figure class="wp-block-video"><video height="966" style="aspect-ratio: 1280 / 966;" width="1280" controls src="https://www-static.castignoli.it/wp-content/uploads/2026/10/video_2026-10-06_09-42-44.mp4"></video></figure>
+
+
+
+<h3 class="wp-block-heading">Tailscale and biometric authentication on VPS</h3>
+
+
+
+<p class="wp-block-paragraph">When you use a VPS as your main desktop, having a secure connection between your clients and the remote VPS is mandatory, Tailscale makes this super easy. It&#8217;s just a matter of registering your devices, and you get a safe url for each of them. It&#8217;s just Hamachi on steroids for those of you who remember remote LAN gaming <img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f600.png" alt="😀" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<p class="wp-block-paragraph">In my secure network, I feel ok with doing risky things. One good example is an app that emulates the biometric authentication from my phone inside my VPS, so that when a website asks for a WebAuthn passkey, I can use my finger to log in, even from my remote VPS.</p>
+
+
+
+<h3 class="wp-block-heading">A picture of my desk</h3>
+
+
+
+<p class="wp-block-paragraph">You can see my gaming laptop on the left. Then the big screen split in half, on the left the remote desktop to my VPS, on the right my Agent tool. Below my screen, I have my phone attached to the screen with a single USB-C cable. The G8 has a built-in USB hub, so anything plugged into the monitor is passed through to the phone over that same cable.</p>
+
+
+
+<p class="wp-block-paragraph">I also bought a cheap Bluetooth mouse and keyboard, and hid the gaming laptop&#8217;s keyboard and mouse under the screen stand.</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="771" src="https://www-static.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_11-45-22-1024x771.jpg" alt="" class="wp-image-307" srcset="https://www-static.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_11-45-22-1024x771.jpg 1024w, https://www-static.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_11-45-22-300x226.jpg 300w, https://www-static.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_11-45-22-768x578.jpg 768w, https://www-static.castignoli.it/wp-content/uploads/2026/10/photo_2026-10-06_11-45-22.jpg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h3 class="wp-block-heading">Things that don&#8217;t work properly</h3>
+
+
+
+<p class="wp-block-paragraph">I&#8217;m just going to report everything that works poorly or doesn&#8217;t work at all here:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Video calls and screen sharing. Quite annoying in general, of course it depends on the app. We are using Jitsi, and it used to work very badly on DeX, but <a href="https://github.com/jitsi/jitsi-meet/pull/17844">I opened a PR to fix it.</a> Google meet works ok. My current workaround is joining the meeting from both my Android phone and the VPS, to share the VPS&#8217; screen</li>
+
+
+
+<li>Samsung DeX interface not optimized for fast keyboard shortcuts.</li>
+
+
+
+<li>Sometimes the keyboard focus doesn&#8217;t go to the right window. It&#8217;s very annoying because you think you are typing in a window, but your keyboard sends keys to another app.</li>
+
+
+
+<li>Android apps while in DeX (e.g. Whatsapp) don&#8217;t feel native, the UX is designed for mobile and touch, so using them with a mouse is bad. This is not true for every app, Brave browser for example is amazing.</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph"></p>
+]]></content:encoded>
+					
+		
+		<enclosure url="https://www-static.castignoli.it/wp-content/uploads/2026/10/video_2026-10-06_09-21-34.mp4" length="5998232" type="video/mp4" />
+<enclosure url="https://www-static.castignoli.it/wp-content/uploads/2026/10/video_2026-10-06_09-42-44.mp4" length="5087253" type="video/mp4" />
+
+			</item>
+		<item>
+		<title>Sherlup, a tool to let LLMs check your dependencies before you upgrade</title>
+		<link>https://www.castignoli.it/tecnologia/sherlup-a-tool-to-let-llms-check-your-dependencies-before-you-upgrade/</link>
+		
+		<dc:creator><![CDATA[Marco Castignoli]]></dc:creator>
+		<pubDate>Thu, 05 Mar 2026 08:59:12 +0000</pubDate>
+				<category><![CDATA[Tecnologia]]></category>
+		<guid isPermaLink="false">https://www.castignoli.it/?p=293</guid>
+
+					<description><![CDATA[TL;DR: We can make supply chain attacks more difficult by checking with LLMs the dependencies&#8217; new code before upgrading. I don&#8217;t have time to build this, but I think such a tool would be really useful. The nodejs ecosystem is one of the most thriving and interconnected. If you want to build something new there [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">TL;DR: We can make supply chain attacks more difficult by checking with LLMs the dependencies&#8217; new code before upgrading. I don&#8217;t have time to build this, but I think such a tool would be really useful.</p>
+
+
+
+<p class="wp-block-paragraph">The nodejs ecosystem is one of the most thriving and interconnected. If you want to build something new there is probably already most of the code you need to write in some npm packages. And if you look inside the packages you used for your project they were also built using hundreds of dependencies. That&#8217;s why the meme about <code>node_modules</code> exists, every time you reuse someone else&#8217;s code literally megabytes of code coming from thousands of different sources is downloaded in your computer.</p>
+
+
+
+<p class="wp-block-paragraph">Now imagine being a malicious hacker willing to exploit the software you are building. From her perspective is it better to target the few lines you wrote or one of the millions of lines you are not even checking?</p>
+
+
+
+<p class="wp-block-paragraph">These kind of attacks, in which the bad actor targets your dependencies are called supply chain attacks. If you want to read more about it, I suggest you read <a href="https://www.cloudflare.com/learning/security/what-is-a-supply-chain-attack/">this blog post from Cloudflare</a>.</p>
+
+
+
+<p class="wp-block-paragraph">The Nodejs ecosystem is particularly subject to these kinds of attacks because of the interconnectivity we discussed before and because the heavy usage of automation in dependency management. Tools like Renovate automatically create pull requests on your repository with upgraded dependencies and it&#8217;s literally impossible for the project maintainer to check every new line of code coming from the upgraded dependencies, and let&#8217;s not even discuss checking every dependency&#8217;s dependencies code.</p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s where I had the idea: the job of checking every possible dependency is impossible for a human, but it is certainly possible for an LLM. Of course LLMs will not find every vulnerability, but I think they will make the attacker&#8217;s life much harder. It will become an additional step of the stack that the attacker needs to bypass in order to correctly ship the dependency into your code.</p>
+
+
+
+<p class="wp-block-paragraph">Since I just had a baby and I&#8217;m currently without any personal time, I decided to vibe code this proof of concept called Sherlup (Sherlock+upgrade), a CLI utility that automatically checks every to-be-upgraded dependency (and it also supports Renovate if available in the project).</p>
+
+
+
+<p class="wp-block-paragraph">A similar tool already exists called <a href="https://socket.dev">Socket.dev</a>, and it&#8217;s worth mentioning the key differences. Socket analyzes complete package snapshots rather than focusing on what actually changed between versions, and it runs entirely on their proprietary AI pipeline, you have no control over which model is used or where your code is sent. Sherlup instead focuses on the diff between versions and, being an open-source CLI, lets you plug in any LLM you want, including locally-running ones.</p>
+
+
+
+<p class="wp-block-paragraph">See below for an example of usage of <code>sherlup</code>.</p>
+
+
+
+<p class="wp-block-paragraph">I wrote this blog post because I think there is need in the ecosystem for such a tool, and I&#8217;m hoping that someone with more time than me will be happy to start experimenting in this direction.</p>
+
+
+
+<pre class="wp-block-code"><code>marcocastignoli@Mac sourcify % sherlup audit --verbose
+
+Using renovate config: renovate.json
+Found 7 available update(s). Analyzing...
+
+Analyzing @aws-sdk/client-s3 3.992.0 → 3.1001.0...
+Analyzing @google-cloud/cloud-sql-connector 1.9.0 → 1.9.1...
+Analyzing @shazow/whatsabi 0.25.0 → 0.26.0...
+Analyzing @types/pg 8.16.0 → 8.18.0...
+Analyzing dbmate 2.30.0 → 2.31.0...
+Analyzing pg 8.18.0 → 8.19.0...
+Analyzing solc 0.8.33 → 0.8.34...
+
+sherlup — Dependency Security Analysis
+──────────────────────────────────────────────────────
+
+&#x1f7e1; @aws-sdk/client-s3 3.992.0 → 3.1001.0 &#91;LOW] score: 28%
+The update introduces explicit handling for the '**proto**' property when merging objects, which is a common indicator of prototype pollution mitigation, but the implementation is incomplete.
+
+► &#91;MEDIUM] The code explicitly checks for and handles '**proto**' to prevent prototype pollution, but it fails to account for 'constructor' or 'prototype' properties. An attacker could potentially use these to modify the prototype chain of objects.
+File: dist-cjs/index.js
+Evidence:
+Object.prototype.hasOwnProperty.call(schemas_0, '**proto**') &amp;&amp;
+!Object.prototype.hasOwnProperty.call(exports, '**proto**') &amp;&amp;
+Object.defineProperty(exports, '**proto**', {
+Action: Implement a comprehensive blocklist that includes 'constructor' and 'prototype' in addition to '**proto**', or use Object.create(null) to create objects without a prototype.
+
+Assessment: The update modifies how the SDK exports modules and merges schemas/errors. While the developers recognized the risk of prototype pollution by adding a check for '**proto**', the mitigation is insufficient because it ignores other dangerous keys like 'constructor' and 'prototype'. This creates a security regression or a partial fix where the developer believes they are protected but remains vulnerable to prototype pollution via alternative vectors. The blast radius is significant as this is a core AWS SDK package used in many environments.
+
+&#x2705; @google-cloud/cloud-sql-connector 1.9.0 → 1.9.1 &#91;SAFE] score: 0%
+This update is a routine maintenance release that increments the package version, updates development dependencies, and bumps the @googleapis/sqladmin dependency.
+
+► &#91;INFO] The dependency @googleapis/sqladmin was updated from ^35.0.0 to ^35.2.0. This is a minor dependency update, which is standard for maintaining compatibility with Google Cloud APIs.
+File: package.json
+Evidence:
+"@googleapis/sqladmin": "^35.2.0",
+Action: Monitor the changelog of @googleapis/sqladmin for any breaking changes or security patches.
+
+Assessment: The update consists primarily of version bumps for development dependencies and a minor update to the @googleapis/sqladmin dependency. The changes to sqladmin-fetcher.js are limited to updating the user-agent string to reflect the new package version, which is standard practice. No logic changes were introduced that would expose the application to prototype pollution, injection, or other common vulnerabilities. The blast radius is minimal and limited to standard library maintenance.
+
+&#x1f7e0; @shazow/whatsabi 0.25.0 → 0.26.0 &#91;MEDIUM] score: 60%
+The update introduces a fallback mechanism for environment variables that could lead to accidental exposure of the entire process.env object if misconfigured.
+Static signals: env-access, sensitive-fs
+
+► &#91;MEDIUM] The expression `process.env.ETH_RPC_URL ?? process.env` uses the nullish coalescing operator to fallback to the entire `process.env` object if `ETH_RPC_URL` is undefined. If this object is subsequently serialized or logged, it will leak all environment variables, including sensitive keys like INFURA_API_KEY or other system secrets.
+File: examples/autoload.ts
+Evidence:
+ETH_RPC_URL: process.env.ETH_RPC_URL ?? process.env
+Action: Replace the fallback with a specific default value or an empty string, e.g., `process.env.ETH_RPC_URL ?? process.env.PROVIDER_RPC_URL ?? ''`.
+
+Assessment: The update primarily improves provider configuration flexibility in the examples. However, the introduction of `process.env` as a fallback value in `autoload.ts` is a dangerous pattern. While this is in an 'examples' file and not the core library, it encourages insecure practices for users copying the code. The core library changes (updating @noble/hashes and fixing keccak256 input handling) appear to be legitimate maintenance and bug fixes.
+
+&#x2705; @types/pg 8.16.0 → 8.18.0 &#91;SAFE] score: 0%
+The update to @types/pg 8.18.0 contains no code changes as it is a type definition package.
+
+Assessment: The package @types/pg is a TypeScript definition file for the 'pg' library. Since the provided diff is empty, there are no functional code changes, logic modifications, or security implications. As a type-only package, it does not execute code at runtime and cannot introduce vulnerabilities like prototype pollution or injection.
+
+&#x2705; dbmate 2.30.0 → 2.31.0 &#91;SAFE] score: 0%
+The update only increments the version numbers of optional binary dependencies, which is a standard maintenance task for this package.
+
+Assessment: The diff is limited to updating the version strings for the @dbmate platform-specific optional dependencies in package.json. This is a standard procedure for releasing a new version of the dbmate wrapper. No application logic, security controls, or external code execution paths were modified, resulting in no new attack surface.
+
+&#x2705; pg 8.18.0 → 8.19.0 &#91;SAFE] score: 0%
+The update primarily introduces deprecation warnings and minor bug fixes for query callback handling and connection state management.
+
+► &#91;INFO] The update adds a fallback to an empty function for query callbacks when a read timeout is configured. This prevents potential crashes if a query object lacks a callback property, which is a robustness improvement rather than a security vulnerability.
+File: lib/client.js
+Evidence:
+queryCallback = query.callback || (() =&gt; {})
+Action: None required.
+
+Assessment: The changes in pg 8.19.0 are focused on code maintenance, deprecation notices for future major versions, and minor stability improvements in query callback handling. No user-controlled input is processed in a way that introduces prototype pollution, injection, or path traversal vulnerabilities. The logic for handling query callbacks and connection state is safe and does not introduce new attack vectors.
+
+&#x2705; solc 0.8.33 → 0.8.34 &#91;SAFE] score: 0%
+The update consists of a version bump and a change to the minified/compiled soljson.js artifact, which is standard for solc patch releases.
+
+Assessment: The diff shows a version increment in package.json and a modification to the soljson.js file. As solc is a compiler distributed as a pre-compiled WebAssembly/JavaScript artifact, changes to soljson.js are expected in patch releases to include compiler bug fixes or optimizations. No source code changes were provided to analyze for logic vulnerabilities, and the artifact change is consistent with the package's release lifecycle.
+
+──────────────────────────────────────────────────────
+&#x1f7e0; Overall risk: MEDIUM</code></pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Manuale di Ethereum per primitivi digitali</title>
+		<link>https://www.castignoli.it/podcast/manuale-di-ethereum-per-primitivi-digitali/</link>
+		
+		<dc:creator><![CDATA[Marco Castignoli]]></dc:creator>
+		<pubDate>Thu, 28 Dec 2023 23:59:54 +0000</pubDate>
+				<category><![CDATA[podcast]]></category>
+		<guid isPermaLink="false">https://www.castignoli.it/?p=253</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-embed is-type-rich is-provider-spotify wp-block-embed-spotify wp-embed-aspect-21-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Spotify Embed: Capitolo I - Il potere computazionale" style="border-radius: 12px" width="100%" height="152" frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" src="https://open.spotify.com/embed/episode/62rXVv8MjrMK02PaxLGfWf?si=cdVGYsbJQcGnvsgd9uiSAA&#038;utm_source=oembed"></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-spotify wp-block-embed-spotify wp-embed-aspect-21-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Spotify Embed: Capitolo II - Proprietà e valore dell’informazione" style="border-radius: 12px" width="100%" height="152" frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" src="https://open.spotify.com/embed/episode/0I1lEtFuhuRCanYhiYOf1s?si=GNBgOQkyRx2YI-RPDjluIg&#038;utm_source=oembed"></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-spotify wp-block-embed-spotify wp-embed-aspect-21-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Spotify Embed: Capitolo III - Programmare l’informazione" style="border-radius: 12px" width="100%" height="152" frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" src="https://open.spotify.com/embed/episode/1ni5imN8jOL4NbEivsvDxK?si=47yMHhzuTUWPZHE09ZfssQ&#038;utm_source=oembed"></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-spotify wp-block-embed-spotify wp-embed-aspect-21-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Spotify Embed: Capitolo IV - Consenso, blockchain e Bitcoin" style="border-radius: 12px" width="100%" height="152" frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" src="https://open.spotify.com/embed/episode/55fnMDbOr665eFyNDFYLkk?si=9WmqZZDfQWuG_m2siMM8qw&#038;utm_source=oembed"></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-spotify wp-block-embed-spotify wp-embed-aspect-21-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Spotify Embed: Capitolo V - Ethereum e il giardino infinito" style="border-radius: 12px" width="100%" height="152" frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" src="https://open.spotify.com/embed/episode/6f27M5o8VqmtwRML6Q0sAM?si=c_Ts6DvoRrqMiEzVkcrTgw&#038;utm_source=oembed"></iframe>
+</div></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Ethereum Manual for Digital Primitives – Chapter V – Ethereum and the Infinite Garden</title>
+		<link>https://www.castignoli.it/tecnologia/ethereum-manual-for-digital-primitives-chapter-v-ethereum-and-the-infinite-garden/</link>
+		
+		<dc:creator><![CDATA[Marco Castignoli]]></dc:creator>
+		<pubDate>Thu, 28 Dec 2023 23:44:09 +0000</pubDate>
+				<category><![CDATA[Tecnologia]]></category>
+		<guid isPermaLink="false">https://www.castignoli.it/?p=242</guid>
+
+					<description><![CDATA[The heart of the &#8220;Ethereum Manual for Digital Primitives&#8221; lies in this chapter, where the reader finally begins to grasp the potentialities of the decentralized world. However, all these utopian dreams wouldn&#8217;t be possible without Ethereum. As highlighted in the previous chapter, Bitcoin&#8217;s functionality is limited to currency exchange, whereas Ethereum proposes itself as the [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">The heart of the &#8220;Ethereum Manual for Digital Primitives&#8221; lies in this chapter, where the reader finally begins to grasp the potentialities of the decentralized world. However, all these utopian dreams wouldn&#8217;t be possible without Ethereum. As highlighted in the previous chapter, Bitcoin&#8217;s functionality is limited to currency exchange, whereas Ethereum proposes itself as the App Store of the decentralized world. Anyone with programming skills can now build an app to decentralize an aspect of Homo sapiens&#8217; life. This app will be immutable and decentralized, preventing direct control by any single entity.</p>
+
+
+
+<p class="wp-block-paragraph">For example, ENS is an app that decentralizes the registration of internet domains. The reader has surely dealt with a URL, such as &#8220;google.com&#8221;. The link between &#8220;google.com&#8221; and the web page used by Homo sapiens for searching is precisely the domain. This link is normally saved on servers owned by information monopolies, with all the ensuing problems. ENS, on the other hand, aims to decentralize this information, making the link between &#8220;google.com&#8221; and its webpage stored in a public domain space where everyone is forced to follow the immutable code rules of ENS. The second part of this manual will dedicate an entire chapter to the functioning of these decentralized apps, called smart contracts.</p>
+
+
+
+<p class="wp-block-paragraph">Ethereum also solves a problem not yet discussed: Bitcoin&#8217;s Proof of Work is extremely energy-intensive. Imagine hundreds of thousands of computers competing to solve mathematical puzzles 24/7: the Bitcoin network is estimated to pollute as much as the entire US railway system. Ethereum uses a consensus method called Proof of Stake. Instead of competing against each other, Ethereum computers lock a significant amount of their capital to access a lottery. Lottery winners propose various states, and these states are voted on by other lottery participants. The state receiving the most votes becomes the &#8220;official&#8221; one. If a computer elected to propose a state suggests a malevolent one and is discovered by the rest of the nodes, it loses half of all its locked funds. In 2015, when Ethereum was launched, the concept of Proof of Stake existed but had not been adequately tested. Therefore, Ethereum initially used Proof of Work, with the commitment to switch to Proof of Stake eventually. This promise was kept in September 2022, reducing Ethereum&#8217;s CO2 emissions by 99%.</p>
+
+
+
+<p class="wp-block-paragraph">Another fundamental aspect of the Ethereum network is the interoperability between its applications. For instance, a video posted on a hypothetical Ethagram is also available on a hypothetical EthTok; comments, likes, users, and stories are shared. Of course, for two applications to be compatible, they must share the same standard. Ethereum&#8217;s standards begin with the ERC prefix and are discussed by the Ethereum community in various online channels. For example, ERC-20 defines the token standard, which can represent a currency, likes on social media, or votes during elections. If a programmer decides to support the ERC-20 standard in their app, any token from any app will be automatically supported, making the application compatible with the rest of the Ethereum ecosystem. The digital primitive might not fully grasp the significance of this, but a connected digital world makes new types of automation possible. Imagine, for instance, the hypothetical digitization of bureaucracy, using common standards to potentially link banks, tax institutions, and governments to automate every process.</p>
+
+
+
+<p class="wp-block-paragraph">It&#8217;s important for the reader to understand that Ethereum is not the product of any tech company; it is simply a program maintained by thousands of different entities. Among these, it&#8217;s important to mention the Ethereum Foundation, a non-profit organization that funds projects and research that could not otherwise finance themselves. The interesting roadmap of the Ethereum Foundation envisages a gradual reduction of its tasks within the ecosystem, ideally ceasing to exist the day no more funding for research and projects is needed. The digital primitive must deeply understand the meaning of this choice: Ethereum was born within the foundation, but instead of deciding to make it a product for profit, the foundation chose a path to one day cease being necessary in the ecosystem. This vision is the complete opposite of the capitalistic vision of the contemporary world in which the reader lives.</p>
+
+
+
+<p class="wp-block-paragraph">Previously, the Ethereum community was mentioned, particularly the part that engages in defining the ERCs. In reality, the Ethereum community is much more. As explained in the previous paragraph, the Ethereum Foundation collaborates with thousands of other entities for the development of Ethereum, including companies, universities, foundations, and even other blockchains. These realities are the engine of Ethereum, not only taking care of development but also disseminating information, building new decentralized apps, designing tools to simplify the use of Ethereum, and organizing independent events around the world. If the reader, residing in Italy, wishes to directly experience the Ethereum communities, they can consult the map on the website www.spaghett-eth.com. Milan and Rome stand out as hosting the two largest communities in Italy. The manual encourages the brave digital primitive to seek contact with the nearest Ethereum group, as there is no world of decentralization without the people supporting it. As this text suggests, blockchain is not just a computer issue; its vision has a strong social component.</p>
+
+
+
+<p class="wp-block-paragraph">After the industrial revolution, humans, accustomed to capitalist norms, became increasingly cold and rational. Profit comes before everything else; if a company does charity or cares about the environmental impact, it is probably more an image issue than anything else. Many see the Ethereum ecosystem, on the contrary, as an infinite garden where gardeners are not in competition with each other but work together to make it grow. The rules of the game in the infinite garden are different. To understand their importance, the manual recommends reading &#8220;Finite and Infinite Games&#8221; by James P. Carse. The book analyzes the differences between finite and infinite games. In a finite game, as the name suggests, there are clear rules, winners and losers, and a defined conclusion. Finite games are played with the goal of winning. Conversely, an infinite game has no clear end or defined winners and losers. It is played with the goal of continuing to play. Traditional capitalism can be seen as a finite game, where companies compete for limited resources and market share. Success is measured in terms of profit and growth, and companies that fail to compete effectively are often eliminated from the market. The Ethereum ecosystem, as described, represents rather an infinite game. Instead of competing for limited resources, actors within it collaborate to create shared value. There is no defined end or ultimate goal, but rather a collective desire to build and sustain a system that can thrive in the long term.</p>
+
+
+
+<p class="wp-block-paragraph">The digital primitive is now laden with new knowledge and, hopefully, new hopes for a better world founded on values such as collaboration, equality, and independence. It&#8217;s important to note for the reader that this new decentralized world is not made up only of computer scientists or technicians, but there is a great need for other roles. Therefore, the manual still encourages the reader to become active and contribute by bringing their skills to the ecosystem of the decentralized digital world.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Ethereum Manual for Digital Primitives – Chapter IV – Consensus, Blockchain, and Bitcoin</title>
+		<link>https://www.castignoli.it/tecnologia/ethereum-manual-for-digital-primitives-chapter-iv-consensus-blockchain-and-bitcoin/</link>
+		
+		<dc:creator><![CDATA[Marco Castignoli]]></dc:creator>
+		<pubDate>Thu, 28 Dec 2023 23:40:49 +0000</pubDate>
+				<category><![CDATA[Tecnologia]]></category>
+		<guid isPermaLink="false">https://www.castignoli.it/?p=240</guid>
+
+					<description><![CDATA[In a centralized system, all computers connected to a server refer to the information present on the central server, and whoever controls the server controls the state of the system. Changing this paradigm is incredibly difficult. It&#8217;s not just about implementing a new type of encrypted information on private computers; it&#8217;s about creating a new [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">In a centralized system, all computers connected to a server refer to the information present on the central server, and whoever controls the server controls the state of the system. Changing this paradigm is incredibly difficult. It&#8217;s not just about implementing a new type of encrypted information on private computers; it&#8217;s about creating a new system for managing decisions among peer computers. While developing this system, one must consider the possibility of individuals with malicious intent, tampered or malfunctioning computers – in short, it&#8217;s a truly complex challenge.</p>
+
+
+
+<p class="wp-block-paragraph">In a decentralized system, the concept of consensus is fundamental. That is, how do computers agree to decide the state of the system? We have seen how consensus is managed in a centralized system: simply, the state of the system is decided by the central server, which everyone must trust. The information is saved, modified, and read by a single computer, the server.</p>
+
+
+
+<p class="wp-block-paragraph">The first form of consensus in a decentralized system was Proof of Work, published in 2008 in the article that first introduced Bitcoin. Proof of Work is based on a very simple postulate: the most powerful computer in a decentralized system is much less powerful than the sum of all other computers in the network. The network implementing Proof of Work works in shifts. Whenever a decision needs to be made, all computers generate the same mathematical challenge. The first to solve the challenge acts as the central server for that turn, and then the next turn and decision follow. If there are 100 computers in the network, and all computers have roughly the same computing power, a different computer will win each turn. A computer that wants to win every challenge would have to be more powerful than all the others combined, making the endeavor virtually impossible. Proof of Work brings another important benefit to the decentralized network: making a decision requires effort. The malevolent individual who wants to insert a corrupt state into the system must invest a lot of resources to succeed.</p>
+
+
+
+<p class="wp-block-paragraph">Some will have surely noticed a problem: what happens if a malicious computer wins a turn? The system&#8217;s state would be corrupted in that turn. Bitcoin solves this flaw by allowing the winner of the subsequent challenge to create a parallel state. In this case, the system will end up with two states. How to manage this situation? Simply, the next winner can decide on which of the two states to make the modification. The state with more modifications will be the one in which the majority of computers have decided to invest resources and therefore considered the &#8220;official&#8221; one.</p>
+
+
+
+<p class="wp-block-paragraph">In the previous figure, the red circle represents the state created by the malicious computer, while the circle on the far right represents the system&#8217;s &#8220;official&#8221; state. Each line is a modification that connects the previous state to the next. The reader can now imagine the reason behind the name blockchain, i.e., a chain of blocks. Each state, or block, is connected to the previous one. The chain can fork in the case where a malicious computer creates a state to which no other computer wants to attach a subsequent state.</p>
+
+
+
+<p class="wp-block-paragraph">All that remains is to understand the role of cryptography in the blockchain to have a fairly complete idea of Bitcoin&#8217;s functioning. To do this, we must create a new type of safe in which there is not only one key but two opposite ones: the usual secret key and a new public key available to everyone. When the safe is closed with one of the two keys, it can then only be opened with the opposite. This allows new use cases for our digital safes. For example, Marco closes a message in Matteo&#8217;s safe using Matteo&#8217;s public key. This message can only be read by Matteo, who will use his secret key to open the safe. Conversely, Matteo closes his safe with his private key. Everyone can open his safe (because Matteo&#8217;s public key is public), but they will have a guarantee: the safe was definitely closed by Matteo. And this is the missing piece to complete the puzzle: the digital signature. With this new type of safes, which we will call asymmetric cryptography, it is possible to sign a message using one&#8217;s private key because that message can only be read using the public key opposite the private key used.</p>
+
+
+
+<p class="wp-block-paragraph">At this point, the reader will be tired; the manual has been pedantic in describing the fundamental properties of Bitcoin. Unfortunately, without this information, it is impossible for the primitive to evolve to better survive within the digital world. However, one can finally understand the true revolution of the blockchain: a central server is no longer necessary to program information.</p>
+
+
+
+<p class="wp-block-paragraph">The implications are immense. If in the centralized system the bank acted as the guarantor of human financial information, in the decentralized system there is no longer a single guarantor, and the integrity of the information is guaranteed by the method of consensus and cryptography. Homo sapiens can finally start thinking about moving the information of their cave&#8217;s ownership to a safer place, a place from which no centralized entity can alter their personal data. Unfortunately, Bitcoin is a system specifically designed for currency management and does not support generic programming or all types of information. Therefore, humans will have to wait a little longer before securing their caves. In the meantime, however, they can abandon their bank and move their funds to the blockchain.</p>
+
+
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Ethereum Manual for Digital Primitives &#8211; Chapter III &#8211; Programming information</title>
+		<link>https://www.castignoli.it/tecnologia/ethereum-manual-for-digital-primitives-chapter-iii-programming-information/</link>
+		
+		<dc:creator><![CDATA[Marco Castignoli]]></dc:creator>
+		<pubDate>Thu, 28 Dec 2023 23:38:37 +0000</pubDate>
+				<category><![CDATA[Tecnologia]]></category>
+		<guid isPermaLink="false">https://www.castignoli.it/?p=238</guid>
+
+					<description><![CDATA[In the previous chapters, we&#8217;ve come to understand that digital information usually gains value because a central entity vouches for its worth. To ensure the value of information on a private computer of an individual, cryptography is essential. Until now, we&#8217;ve considered computers as mere passive containers, but their primary purpose is actually processing information. [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">In the previous chapters, we&#8217;ve come to understand that digital information usually gains value because a central entity vouches for its worth. To ensure the value of information on a private computer of an individual, cryptography is essential.</p>
+
+
+
+<p class="wp-block-paragraph">Until now, we&#8217;ve considered computers as mere passive containers, but their primary purpose is actually processing information. It&#8217;s vital for the reader to become familiar with the concept of programming. After all, code is the language spoken by the computer universe with which the digital primitive must engage. Of course, this text is not meant to replace a bachelor&#8217;s degree in computer science, so no panic – if the reader has made it this far, surviving symmetric cryptography, nothing can stop them now.</p>
+
+
+
+<p class="wp-block-paragraph">Computers speak the language of binary logic. Despite being a language with a rather limited alphabet – zeros and ones – it allows any type of action on information. The most important actions are mathematical: &#8220;add,&#8221; &#8220;subtract,&#8221; &#8220;divide&#8221;&#8230;; logical ones: &#8220;is it equal?&#8221;, &#8220;is it greater?&#8221;; and others to interface with the user: &#8220;print,&#8221; &#8220;read&#8221;&#8230; For example, a basic program to find the next number of any given number could be:</p>
+
+
+
+<p class="wp-block-paragraph">read<br>add 1<br>print</p>
+
+
+
+<p class="wp-block-paragraph">The computer will read the number provided by the user, add 1 to it, and finally return the updated data to the user. The entire digital world is based on this simple concept. For instance, the digital safe discussed in the previous chapter is built this way. Obviously, building a safe requires more complex verbs than the simple &#8220;read,&#8221; &#8220;write,&#8221; and &#8220;add,&#8221; but the process is the same.</p>
+
+
+
+<p class="wp-block-paragraph">Most programs that Homo sapiens use are executed on the servers of information monopolies. For example, when a human likes a photo on Instagram of someone they are courting, the addition program we wrote earlier is executed on Meta&#8217;s servers and updates the total like count of the photo. Beyond considering the importance of the information&#8217;s location, we must now also consider the importance of where the code is executed. In fact, nothing prevents Meta from modifying the code for adding likes to a photo as follows:</p>
+
+
+
+<p class="wp-block-paragraph">read<br>if human is Marco<br>    exit<br>otherwise<br>    add 1<br>    print</p>
+
+
+
+<p class="wp-block-paragraph">The attentive reader understands that poor Marco will be significantly disadvantaged during the courting phase. The program, in fact, does not record the like on the Instagram photo if the human executing the code is Marco, rather it concludes the execution. We find ourselves again in a situation where the individual is forced to trust centralized entities, even for mating!</p>
+
+
+
+<p class="wp-block-paragraph">Unfortunately, human mating is just one of the aspects of Homo sapiens&#8217; life controlled by information monopolies. Worse is the case where the human spends countless hours tapping on their phone and absorbing tailor-made information, which alters their functioning. For example, suddenly the human might feel an urgent need to leave the house and eat a McDonald&#8217;s sandwich; this need would never have materialized if the human had not interacted with their phone. These codes, called &#8220;targeted marketing,&#8221; are incredibly complex, but they are nothing more than a series of &#8220;ifs&#8221; and &#8220;thens&#8221; tailored to the human being. Depending on the content being consumed, the code decides to show specific information to the digital primitive, thus shaping their weak mind.</p>
+
+
+
+<p class="wp-block-paragraph">The manual advises the reader to delete apps like Instagram, Facebook, or TikTok as quickly as possible. For readers who fear being thus excluded from the most widespread courtship rituals, the suggestion is to remain calm, gradually exit the virtual world, and start leaving the house more often.</p>
+
+
+
+<p class="wp-block-paragraph">The internet was born with the noblest intentions: Tim Berners-Lee, the creator of the WWW (World Wide Web), envisioned a network of computers as equals, each processing their own information. History has not proven him right; today, the vast majority of computation is performed on the servers of information monopolies. In 2016, Tim tried to return the internet to its &#8220;ethical&#8221; origins with Solid, a system that proposed moving information and processing to individuals&#8217; computers. Unfortunately, the project does not have much following today, but it can be a good example of a program that attempts to go against the centralized reality in which readers live.</p>
+
+
+
+<p class="wp-block-paragraph">Another example of non-centralized processing is the blockchain, the real protagonist of this manual. In the next chapter, we&#8217;ll try to explain its functioning, starting from the first project of decentralized computation: Bitcoin.</p>
+
+
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Ethereum Manual for Digital Primitives &#8211; Chapter II &#8211; Property and Value of Information</title>
+		<link>https://www.castignoli.it/uncategorised/ethereum-manual-for-digital-primitives-chapter-ii-property-and-value-of-information/</link>
+		
+		<dc:creator><![CDATA[Marco Castignoli]]></dc:creator>
+		<pubDate>Thu, 28 Dec 2023 23:36:33 +0000</pubDate>
+				<category><![CDATA[Tecnologia]]></category>
+		<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://www.castignoli.it/?p=236</guid>
+
+					<description><![CDATA[What does it mean to own digital information? Does a photo I post on Instagram belong to me? Bureaucratically, probably yes. But, in reality, the photo lives on Meta&#8217;s servers, and if for any reason Meta decided to delete it, the bureaucratic owner of the photo could not oppose it in any way. In other [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">What does it mean to own digital information? Does a photo I post on Instagram belong to me? Bureaucratically, probably yes. But, in reality, the photo lives on Meta&#8217;s servers, and if for any reason Meta decided to delete it, the bureaucratic owner of the photo could not oppose it in any way. In other words, the owner of the physical place where the bytes of the photo reside also has total control over the photo. There has never been an alternative, so for everyone, this is a normal procedure. As long as we&#8217;re talking about photos, there&#8217;s not a huge problem, but the same cannot be said for more important properties, like a bank account. This total trust in the centralized digital system has led to economic catastrophes for individuals, consider, for example, the 2008 crisis, where banks used the properties of the masses to create a speculative bubble, leaving, after its burst, hundreds of millions of people in serious economic difficulty. This is not to say that the same thing couldn&#8217;t have happened in a non-centralized system, but this example is brought up to remind the reader that &#8220;normality&#8221; is not always rosy and bright; in fact, the normality of most humans is rather dramatic, without any particular financial crises at hand.</p>
+
+
+
+<p class="wp-block-paragraph">In a hypothetical world where the properties of every individual belong to them, the only way an individual can lose property is through their own mistakes. Error in the digital world is common, especially for digital primitives like the readers, which is why information monopolies have had an easy life: it&#8217;s simpler to save a photo on the cloud (a server) than to configure a data recovery system at home.</p>
+
+
+
+<p class="wp-block-paragraph">If saving a photo on one&#8217;s computer is something that some can afford to do, saving their financial information is impossible in the centralized digital world. Consider, for example, a Homo sapiens possessing information on their computer proving ownership of a hundred chickens, how many readers know at least one human who wouldn&#8217;t think twice before changing the number of chickens by adding a zero? Obviously, it&#8217;s not possible to found a society where everyone is free to tamper with data on their computer. Data ownership, in itself, does not solve all problems if the owned data lose value. Information monopolies solve this problem because they act as guarantors of the value of information.</p>
+
+
+
+<p class="wp-block-paragraph">However, in some cases, the value of information can be maintained even if the individual owns the data. The case of the photo is a trivial example; a photo is important to its owner. A more complex example that this manual will now try to make the reader understand requires an introduction to the concept of cryptography first. Consider Gulliver, the village blacksmith. When Gulliver builds a safe, he creates both a lock and a key. Ideally, the safe could be left in the village square; without Gulliver&#8217;s key, no one could ever open it. Cryptography is nothing more than a series of ingenious mechanisms that Gulliver is able to build similar to safes (including the safe itself). In the course of this text, we will encounter others, and their operation will be explained when necessary.</p>
+
+
+
+<p class="wp-block-paragraph">Obviously, there is no space in computers to host Gulliver or a safe, but a computer can be programmed to simulate the operation of a safe, and not only that, this digital safe will have two properties that its material counterpart could never possess: indestructibility and the impossibility of deriving the shape of the key from the lock. The reader may wonder how it is possible to build such a magical artifact in a computer, but in this case, the dear reader should not bother to understand its functioning; simply be content to know that this digital safe has been built with mathematics and code instead of screwdrivers and iron plates. Through this tool called symmetric cryptography, it is possible to create, starting from any information, an object illegible to anyone who does not possess the key. For example, give the message &#8220;Hello&#8221; to the digital Gulliver and ask him to create a safe to secure the information. The digital Gulliver will create a safe, put the message &#8220;Hello&#8221; inside it, lock it with the key, and deliver both the safe and the key to you. The safe will look like this: &#8220;d82dc822&#8221;, while the key will appear as: &#8220;SecretKey@1&#8221;. This is a simplification; in reality, both the safe and the key will be incredibly longer texts. The longer the text, the greater the security, just as the more iron plates there are in a safe, the more secure it is.</p>
+
+
+
+<p class="wp-block-paragraph">An example with which the reader can familiarize themselves with the concept of cryptography is WhatsApp. When opening a new chat, a yellow text appears informing the user of the presence of end-to-end encryption. That kind of encryption is more complex and will be explored later in this manual, but one can start to get an idea of its functioning with the concepts already learned. Rosa and Loredana together create a safe and forge a duplicate of the key. Rosa will put her message in the safe and send it to Loredana, who will use the copy of the key to open the safe, read the message, then insert another one, and so on. If only Rosa and Loredana possess the key, not even WhatsApp can read the contents of the messages.</p>
+
+
+
+<p class="wp-block-paragraph">Finally, laden with new knowledge, we return to the concept of the value of information. A more complex example, beyond the personal value of photography, could be the proof of authenticity of a good. In the example that follows this brief introduction, the reader will understand how digital safes can be used as vouchers.</p>
+
+
+
+<p class="wp-block-paragraph">Panotti, the baker, decides to organize a distribution of vouchers for his biggest spending customers. For every €10 spent, Panotti creates a digital voucher worth €2 and hands it to the customer. Not everyone in the town knows that the baker is a revolutionary hacker, but they will soon find out. Valentino, the best customer, enters the shop very hungry and decides to buy €30 of focaccia. Panotti shows him the vouchers and explains how they work exactly like paper vouchers &#8211; &#8220;Hey Vale, watch out, if you lose them there&#8217;s nothing that can be done, save them on your phone after I send them to you on WhatsApp!&#8221; &#8211; in fact, Panotti uses his private key to put the message &#8220;€2 voucher&#8221; inside a digital safe and delivers the safe directly to Valentino&#8217;s phone, without using online voucher services.</p>
+
+
+
+<p class="wp-block-paragraph">The safes that Valentino has with him are proof of the possession of €6 worth of spending at the baker&#8217;s. Remember, the gluttonous Valentino cannot change the text of the message, putting for example €5 instead of €2, because the information is locked in the digital safe and only Panotti has the key.</p>
+
+
+
+<p class="wp-block-paragraph">Cryptography, in general, has the power to maintain the value of digital information because it prevents the cunning Homo sapiens from taking advantage of tampering with information that resides on their computer. If the safe is tampered with, whoever has the key can no longer open it and therefore will notice. As mentioned earlier, there are many more complex artifacts than simple symmetric cryptography. The decentralized systems that we will explore in the course of this text are based on mathematics and code, giving value to the information that resides in the private computers of each individual.</p>
+
+
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Ethereum Manual for Digital Primitives &#8211; Chapter I &#8211; Computational Power</title>
+		<link>https://www.castignoli.it/tecnologia/ethereum-manual-for-digital-primitives-chapter-i-computational-power/</link>
+		
+		<dc:creator><![CDATA[Marco Castignoli]]></dc:creator>
+		<pubDate>Thu, 28 Dec 2023 23:31:58 +0000</pubDate>
+				<category><![CDATA[Tecnologia]]></category>
+		<guid isPermaLink="false">https://www.castignoli.it/?p=233</guid>
+
+					<description><![CDATA[Humans are extraordinary creatures, distinct from all others, who after millions of years of evolution, can afford to live in a reality tailored to their needs. No longer do they have to flee from tigers seeking to devour them, nor wait days in a cave for rain to cease before hunting; now, they merely sit [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">Humans are extraordinary creatures, distinct from all others, who after millions of years of evolution, can afford to live in a reality tailored to their needs. No longer do they have to flee from tigers seeking to devour them, nor wait days in a cave for rain to cease before hunting; now, they merely sit in front of a peculiar metallic object adorned with a bitten apple, tapping it with callous-free fingers. Moreover, one can observe them walking in vast buildings filled with every kind of food, exiting laden with bags, seemingly giving nothing in return. In reality, many will notice humans inserting a card into a device similar to the aforementioned metallic object, then tapping some more before leaving the building. From these behaviors, one may deduce that this magical card ensures human nourishment and that tapping with fingers is quite fashionable. Fashions are fleeting, so let’s shift the reader’s attention to this magical card and its relationship with the strange metallic objects.</p>
+
+
+
+<p class="wp-block-paragraph">The reader must understand that in the digital era, most of humans’ possessions are contained within these strange metallic objects, henceforth referred to by their name: computers. This revelation might seem absurd, as one might wonder how a cave could fit inside a computer. It is not the cave that resides in the computer, but the information that said cave belongs to a certain human. Herein lies the secret, not to be belittled: if previously, the ownership of a cave was guaranteed by Homo sapiens and their stick, today it is assured by mere information in a computer. Consider the last time you took a blow to the head; such would be unnecessary in the modern world.</p>
+
+
+
+<p class="wp-block-paragraph">And the card, what does it do? Simply put, every property in a computer is linked to a card, so a human wishing to transfer ownership of their belongings to another uses the card to confirm possession. Indeed, the reader must understand that these computers cannot recognize a Homo sapiens by sight alone, the card compensates for this deficiency.</p>
+
+
+
+<p class="wp-block-paragraph">The more curious will now have many questions, so I will delve deeper into the workings of computers for the reader unfamiliar with their mechanisms. Computers are mainly of two types: small and large. Small computers are those humans carry in their pockets and those with the fruity ornament; they do very little by themselves, capable of solving a math problem or providing entertainment but not much more complex. For instance, information about cave ownership is too vast for their brains. Hence, Homo sapiens have also built larger computers capable of performing a much wider and more complex range of tasks. And there’s more! Human ingenuity has led to the creation of an almost instantaneous communication system connecting small and large computers worldwide.</p>
+
+
+
+<p class="wp-block-paragraph">The reader has thus understood that small computers physically reside in Homo sapiens&#8217; pockets but communicate with large computers where property information is accessible. It is clear that every human owns their small computer (henceforth called a phone) but who owns the large computers, or servers? This seemingly naive question is the muse of this text. The answer is that large computers, or servers, are owned by a few. In fact, the inspiring question follows the previous one: if the cave properties of all humans are inside the servers, and the servers are owned by a few, do these few own the information of all properties? To clarify this point, let&#8217;s return to when Homo sapiens were exchanging some of their goods for food in the food-filled building. If the server owner had decided to delete all property information, the poor Homo sapiens would not have been allowed to leave the building with bags full of food. Most Homo sapiens do not actually own their cave or generally their belongings; they simply trust leaving their property information in the servers of these few beings, which I will define as &#8220;information monopolies&#8221;.</p>
+
+
+
+<p class="wp-block-paragraph">The information monopolies of the 21st century are Google, Microsoft, and Amazon. A large percentage of servers are in the hands of these three entities. One might think that the financial asset information of a Homo sapiens is in their bank&#8217;s server, but it&#8217;s likely in one of the servers of these three information monopolies. I don&#8217;t know about you, but I&#8217;m beginning to think that the stick-wielding human might actually be smarter than the Homo sapiens of this century, at least he didn&#8217;t depend on anyone.</p>
+
+
+
+<p class="wp-block-paragraph">It is crucial, before continuing this analysis, to give the reader an overview of the state of civilization in the 21st century. In Europe and the United States, most humans generally live a financially stable life where problems arising from centralized information don&#8217;t emerge, but this isn&#8217;t the case everywhere. For instance, in many South American and African states, governments force information monopolies to block their subjects&#8217; properties. Homo sapiens in these regions experience their digital self-determination radically differently depending on their state of residence. Some are indifferent because they face no difficulties, while others live with the problem daily because they are unable to use their assets as a bargaining chip.</p>
+
+
+
+<p class="wp-block-paragraph">Computational power is not simply the strength of a computer, but the political, cultural, and social power of those who own the servers. Computational power, in the information age, goes unnoticed, unspoken of. The masses are like a primitive man tapping with his thumb on the phone, not questioning what&#8217;s happening, why it&#8217;s happening, or how it&#8217;s happening. Thus, the reader is invited to this analysis of the contemporary digital world, its problems, vulnerabilities, and how thousands of hackers worldwide are working to create the foundations of a better reality, where Homo sapiens can truly regain the power to define themselves economically, politically, and socially.</p>
+
+
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Proof of work NFTs</title>
+		<link>https://www.castignoli.it/ideas/proof-of-work-nfts/</link>
+		
+		<dc:creator><![CDATA[Marco Castignoli]]></dc:creator>
+		<pubDate>Tue, 25 Jul 2023 07:19:36 +0000</pubDate>
+				<category><![CDATA[Ideas]]></category>
+		<guid isPermaLink="false">https://www.castignoli.it/?p=188</guid>
+
+					<description><![CDATA[I think this idea is worth many $$$ But I hate the whole degen side of crypto, so I&#8217;ll never implement it. Go for it, implement it and get rich 🤣 Lets take a 32 bytes string: For each of the byte we can assign a characteristic of the NFT. Lets imagine that we are [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<h4 class="wp-block-heading">I think this idea is worth many $$$</h4>
+
+
+
+<p class="wp-block-paragraph"><strong>But I hate the whole degen side of crypto</strong>, so I&#8217;ll never implement it. Go for it, implement it and get rich <img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f923.png" alt="🤣" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<p class="wp-block-paragraph">Lets take a 32 bytes string:</p>
+
+
+
+<pre class="wp-block-code"><code>0xFFFFFFFFFFFFFFFF000000000000000000000000000000000000000000000000</code></pre>
+
+
+
+<p class="wp-block-paragraph">For each of the byte we can assign a characteristic of the NFT. Lets imagine that we are creating NFT weapons for a videogame. The first byte could represent the category of the weapon (sword, axe, bow, &#8230;), the second byte could represent an aesthetic feature of the weapon, the third the power of the sword and so on.</p>
+
+
+
+<p class="wp-block-paragraph">I&#8217;m simplyfing, in reality you should be using multiple bytes to represent one characteristic, so that the most rare values of a characteristic are values like AA-AA-AA-AA while less rare values are XX-XX-XX-AA, where XX are random values.</p>
+
+
+
+<h4 class="wp-block-heading">Proof of work</h4>
+
+
+
+<p class="wp-block-paragraph">The users willing to mint the weapon NFT (blacksmiths) need to find the keccak256 of a specific string (such as &#8220;nftproject-salt-X&#8221;, where X is the variable) so that the resulting hash reflectes the characteristics that the user is searching for.</p>
+
+
+
+<p class="wp-block-paragraph"><em>If I want to have a black sword, I need to search for an hash that begins with 01 (= sword type) and then the next byte 03 (= black color), then with the next 4 bytes I can assign a feature such as XX-XX-01-01 &#8220;+4 strength&#8221;  to the player.</em></p>
+
+
+
+<p class="wp-block-paragraph">So I want to search for a string that when applied the keccak256 fn gives as result</p>
+
+
+
+<pre class="wp-block-code"><code>0x<strong>01</strong>-<strong>03</strong>-F1-32-<strong>01</strong>-<strong>01</strong>-...</code></pre>
+
+
+
+<p class="wp-block-paragraph">In F1-32-01-01, F1 and 32 are just random numbers, but the important part is in 01-01, it represents the &#8220;+4 strength&#8221; characteristic.</p>
+
+
+
+<h4 class="wp-block-heading">The race for the best keccak256</h4>
+
+
+
+<p class="wp-block-paragraph">Now that we found a way to generate rarity for any NFT we can also limit the amount of NFTs with a specific value of a characteristic, or we can assign a tier for each characteristic. For example, there are maximum 10 NFTs that have 5 characteristic with the maximum tier.</p>
+
+
+
+<h4 class="wp-block-heading">Fine tuning</h4>
+
+
+
+<p class="wp-block-paragraph">The developer can fine tune the project reducing the number of available values for each characteristic using <em>mod N</em> where N is the number of maximum value for each byte.</p>
+
+
+
+<h2 class="wp-block-heading">If you get rich&#8230;</h2>
+
+
+
+<p class="wp-block-paragraph">And you want to donate something: <em>0x098e22Fbfb894264c70241FDfEe6090D80b0da76</em></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Async collaboration powered by LLM</title>
+		<link>https://www.castignoli.it/ideas/async-collaboration-powered-by-llm/</link>
+		
+		<dc:creator><![CDATA[Marco Castignoli]]></dc:creator>
+		<pubDate>Sun, 23 Jul 2023 09:33:15 +0000</pubDate>
+				<category><![CDATA[Ideas]]></category>
+		<guid isPermaLink="false">https://www.castignoli.it/?p=185</guid>
+
+					<description><![CDATA[Async is hard Working remotely is fine, but working asynchronously is hard. Especially if many people needs to coordinate themselves. Chat applications, from my point of view, are too messy: if you lose a weekend of conversation then reading all unread messages can become stressful. On the other hand, forums are too structured, are often [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<h4 class="wp-block-heading">Async is hard</h4>
+
+
+
+<p class="wp-block-paragraph">Working remotely is fine, but working asynchronously is hard. Especially if many people needs to coordinate themselves. Chat applications, from my point of view, are too messy: if you lose a weekend of conversation then  reading all unread messages can become stressful. On the other hand, forums are too structured, are often considered a too powerful tool for simple coordination, especially if the group is not that big.</p>
+
+
+
+<h4 class="wp-block-heading">A combination between chats and forum</h4>
+
+
+
+<p class="wp-block-paragraph">could be the right solution for the problem. For each topic the users could create a channel in which they brainstorm, and each time one user is ready to write a tldr of her idea, she an publish it as a post in the thread. So when one is ready to resync can simply read all the tldr representing each idea of each user.</p>
+
+
+
+<h4 class="wp-block-heading">Ok, we just doubled the effort</h4>
+
+
+
+<p class="wp-block-paragraph">Instead of writing just the post or just chatting, now the users will have to both chat and write tldr of their messages. But what if the tldr is made by an LLM each time the user is ready to create a summary of her idea?</p>
+
+
+
+<h4 class="wp-block-heading">tldr of this idea</h4>
+
+
+
+<p class="wp-block-paragraph">Marco thinks:</p>
+
+
+
+<ul class="wp-block-list">
+<li>A project can be divided in subproblems</li>
+
+
+
+<li>For each subproblem the users discuss in a related chat</li>
+
+
+
+<li>With a simple button each user can ask ChatGPT to create a summary of her idea (then reviewing the summary just to be sure).</li>
+
+
+
+<li>The summary can be represented as this list of point you are reading (see at the beginning &#8220;Marco thinks&#8221;, then do the same for evey other user discussing in the subproblem&#8217;s chat)</li>
+
+
+
+<li>Finally the user willing to resync with the conversation just needs to read the tldrs.</li>
+</ul>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
