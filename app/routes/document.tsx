@@ -31,12 +31,21 @@ export function loader({ params }: { params: Record<string, string | undefined> 
   return { kind: "doc", lang: hit.doc.lang, doc: hit.doc, translations: hit.translations, category, categories };
 }
 
-// On GitHub Pages an unknown path serves 404.html (the SPA fallback) and the router then asks for
-// <path>/_.data, which does not exist. Turn that failure into a proper 404 for the error boundary.
-export async function clientLoader({ serverLoader }: { serverLoader: () => Promise<LoaderData> }): Promise<LoaderData> {
+// Client-side navigation asks for <path>/_.data. Two failures are handled here:
+// - an unknown path: GitHub Pages serves 404.html (the SPA fallback), the data file does not exist,
+//   and the error boundary must show a proper 404;
+// - the data request failing for a reason unrelated to the content (a page kept open from before
+//   the switch to HTTPS, a flaky network): every page is a real HTML file, so load it in full instead.
+export async function clientLoader({ request, serverLoader }: { request: Request; serverLoader: () => Promise<LoaderData> }): Promise<LoaderData> {
   try {
     return await serverLoader();
   } catch {
+    const target = new URL(request.url);
+    const navigating = typeof window !== "undefined" && window.location.pathname !== target.pathname;
+    if (navigating) {
+      window.location.assign(target.pathname + target.search);
+      await new Promise(() => {}); // the page is leaving; never resolve
+    }
     throw data(null, { status: 404 });
   }
 }
