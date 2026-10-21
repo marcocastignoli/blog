@@ -3,6 +3,7 @@ import { getCategories, resolve } from "../content.server";
 import { SITE_URL, type Category, type Doc, type Summary, type Translation } from "../site";
 import { formatDate, t, type Lang } from "../i18n";
 import { PostList } from "../components/PostList";
+import { useLang } from "../root";
 
 interface DocData {
   kind: "doc";
@@ -81,13 +82,14 @@ export default function Document({ loaderData }: { loaderData: LoaderData }) {
 }
 
 function CategoryIndex({ data }: { data: CategoryData }) {
-  const s = t(data.lang);
+  const { filter } = useLang();
+  const posts = filter === "all" ? data.posts : data.posts.filter((p) => p.lang === filter);
   return (
     <div className="home">
       <h1 className="category-title" style={{ "--accent": data.category.accent } as React.CSSProperties}>
         {data.category.name[data.lang]}
       </h1>
-      <PostList posts={data.posts} categories={data.categories} lang={data.lang} />
+      <PostList posts={posts} categories={data.categories} lang={data.lang} />
     </div>
   );
 }

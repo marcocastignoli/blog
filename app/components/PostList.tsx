@@ -10,8 +10,9 @@ export function PostList({ posts, categories, lang }: { posts: Summary[]; catego
       {posts.map((p) => {
         const c = categories.find((x) => x.id === p.category);
         return (
-          <li key={p.id} className="post-item" style={c ? ({ "--accent": c.accent } as React.CSSProperties) : undefined}>
+          <li key={p.id} className={p.pinned ? "post-item pinned" : "post-item"} style={c ? ({ "--accent": c.accent } as React.CSSProperties) : undefined}>
             <div className="post-item-meta">
+              {p.pinned && <span className="pin-mark">{s.pinned}</span>}
               <time dateTime={p.date}>{formatDate(p.date, lang)}</time>
               {c && (
                 <>

@@ -22,6 +22,10 @@ const strings = {
     writtenBy: "Scritto da",
     source: "Codice sorgente",
     noPosts: "Nessun articolo.",
+    back: "Indietro",
+    pinned: "In evidenza",
+    categoryFilterLabel: "Categoria",
+    allCategories: "Tutte",
   },
   en: {
     siteName: "castignoli.it",
@@ -42,6 +46,10 @@ const strings = {
     writtenBy: "Written by",
     source: "Source code",
     noPosts: "No posts.",
+    back: "Back",
+    pinned: "Pinned",
+    categoryFilterLabel: "Category",
+    allCategories: "All",
   },
 };
 

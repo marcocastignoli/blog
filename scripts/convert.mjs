@@ -20,6 +20,9 @@ const conceptByWpSlug = new Map();
 for (const c of categories) for (const wp of c.wordpress) conceptByWpSlug.set(wp, c.id);
 const wpCategoryById = new Map(wpCategories.map((c) => [c.id, c]));
 
+// Posts pinned at the top of every listing (by WordPress id and language).
+const PINNED = new Set(["113:it"]);
+
 // Posts whose language the stopword heuristic cannot see (no text, only embeds).
 const LANG_OVERRIDES = { 253: "it" };
 
@@ -200,6 +203,7 @@ async function writePost(meta, markdown) {
   if (usedNames.has(name)) name += `-${meta.lang}`;
   usedNames.add(name);
   const file = join(ROOT, "content/posts", `${name}.md`);
+  if (PINNED.has(`${meta.wpId}:${meta.lang}`)) meta.pinned = true;
   await writeFile(file, `${frontMatter(meta)}\n\n${markdown}`);
   report.push(`${meta.lang} ${meta.category.padEnd(18)} ${meta.path}`);
   for (const m of markdown.matchAll(/\]\((\/[^)]+)\)|src="(\/[^"]+)"/g)) {

@@ -95,7 +95,10 @@
   text-align: justify;
   hyphens: auto;
 }
-.post[data-theme="short-story"] .post-body > p:first-of-type::first-letter {
+/* Drop cap on the first paragraph of prose. A dateline (aligned paragraph) before it does not count. */
+.post[data-theme="short-story"] .post-body > p:first-of-type:not(.align-right):not(.align-center)::first-letter,
+.post[data-theme="short-story"] .post-body > p:first-of-type.align-right + p::first-letter,
+.post[data-theme="short-story"] .post-body > p:first-of-type.align-center + p::first-letter {
   float: left;
   font-size: 3.6em;
   line-height: 0.85;

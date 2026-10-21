@@ -32,6 +32,8 @@ export interface Doc {
   /** accent colour override */
   accent?: string;
   aliases: string[];
+  /** pinned posts come first in every listing */
+  pinned: boolean;
   description: string;
   html: string;
   wpId?: number;
@@ -45,6 +47,7 @@ export interface Summary {
   lang: Lang;
   category?: string;
   path: string;
+  pinned: boolean;
   description: string;
 }
 

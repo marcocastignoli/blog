@@ -72,6 +72,7 @@ function readDocs(dir: string, kind: Doc["kind"], categories: Category[]): Doc[]
       style: data.style ? String(data.style) : undefined,
       accent: data.accent ? String(data.accent) : undefined,
       aliases: Array.isArray(data.aliases) ? data.aliases.map(normalizePath) : [],
+      pinned: data.pinned === true,
       description: data.description ? String(data.description) : describe(html),
       html,
       wpId: typeof data.wpId === "number" ? data.wpId : undefined,
@@ -108,7 +109,12 @@ export function categoryPath(c: Category, lang: Lang): string {
 }
 
 export function toSummary(d: Doc): Summary {
-  return { id: d.id, title: d.title, date: d.date, lang: d.lang, category: d.category, path: d.path, description: d.description };
+  return { id: d.id, title: d.title, date: d.date, lang: d.lang, category: d.category, path: d.path, pinned: d.pinned, description: d.description };
+}
+
+/** Listing order: pinned posts first, then newest first. */
+export function forListing(posts: Doc[]): Summary[] {
+  return [...posts].sort((a, b) => Number(b.pinned) - Number(a.pinned) || b.date.localeCompare(a.date)).map(toSummary);
 }
 
 /** Published posts, newest first. */
@@ -143,7 +149,7 @@ export function resolve(rawPath: string): Resolved {
   for (const category of categories) {
     for (const lang of ["it", "en"] as Lang[]) {
       if (categoryPath(category, lang) === path) {
-        const posts = getPosts().filter((p) => p.category === category.id).map(toSummary);
+        const posts = forListing(getPosts().filter((p) => p.category === category.id));
         return { kind: "category", category, lang, posts };
       }
     }

@@ -1,26 +1,100 @@
-import { createContext, useContext, useState, type ReactNode } from "react";
-import { Link, Links, Meta, Outlet, Scripts, ScrollRestoration, isRouteErrorResponse, useMatches, useRouteError } from "react-router";
+import { createContext, useContext, useEffect, useState, type MouseEvent, type ReactNode } from "react";
+import { Link, Links, Meta, Outlet, Scripts, ScrollRestoration, isRouteErrorResponse, useMatches, useNavigate, useRouteError } from "react-router";
 import { t, type Lang } from "./i18n";
+import type { Category } from "./site";
 import "./styles/base.css";
 import "./styles/themes.css";
 
-// The language of the page comes from the matched route's loader data. The home page can
-// switch it on the client (its language filter) through this context.
-const LangContext = createContext<{ lang: Lang; setLang: (l: Lang) => void }>({ lang: "it", setLang: () => {} });
+export type LangFilter = "all" | Lang;
+const STORAGE_KEY = "castignoli-lang-filter";
+
+/** What every route's loader tells the layout about the page. */
+export interface PageInfo {
+  kind: "home" | "category" | "doc";
+  lang: Lang;
+  category?: Category;
+}
+
+// The language of the page comes from the matched route's loader data. On the home page the
+// interface follows the language filter, which the browser remembers.
+const LangContext = createContext<{ lang: Lang; filter: LangFilter; setFilter: (f: LangFilter) => void }>({
+  lang: "it",
+  filter: "all",
+  setFilter: () => {},
+});
 export const useLang = () => useContext(LangContext);
 
-function pageLang(matches: ReturnType<typeof useMatches>): Lang {
+function pageInfo(matches: ReturnType<typeof useMatches>): PageInfo | undefined {
   for (const m of [...matches].reverse()) {
-    const data = (m as { loaderData?: unknown }).loaderData as { lang?: Lang } | undefined;
-    if (data?.lang === "it" || data?.lang === "en") return data.lang;
+    const data = (m as { loaderData?: unknown }).loaderData as PageInfo | undefined;
+    if (data && (data.lang === "it" || data.lang === "en")) return data;
   }
-  return "it";
+  return undefined;
+}
+
+function LangSelector({ page, filter, setFilter, lang }: { page: PageInfo; filter: LangFilter; setFilter: (f: LangFilter) => void; lang: Lang }) {
+  const navigate = useNavigate();
+  const s = t(lang);
+  const options: { value: LangFilter; label: string }[] = [
+    { value: "all", label: s.all },
+    { value: "it", label: "Italiano" },
+    { value: "en", label: "English" },
+  ];
+  function choose(f: LangFilter) {
+    setFilter(f);
+    // A category index exists in both languages: follow the chosen one.
+    if (page.kind === "category" && page.category && f !== "all" && f !== page.lang) navigate(`/${page.category.slug[f]}/`);
+  }
+  return (
+    <div className="lang-filter" role="group" aria-label={s.filterLabel}>
+      {options.map((o) => (
+        <button key={o.value} type="button" aria-pressed={filter === o.value} onClick={() => choose(o.value)}>
+          {o.label}
+        </button>
+      ))}
+    </div>
+  );
+}
+
+function BackLink({ lang }: { lang: Lang }) {
+  const navigate = useNavigate();
+  const s = t(lang);
+  // Go back in history when the reader came from inside the site, otherwise to the home page.
+  function onClick(e: MouseEvent<HTMLAnchorElement>) {
+    const idx = typeof window !== "undefined" ? (window.history.state?.idx as number | undefined) : undefined;
+    if (idx && idx > 0) {
+      e.preventDefault();
+      navigate(-1);
+    }
+  }
+  return (
+    <Link to="/" className="back-link" onClick={onClick}>
+      <span aria-hidden="true">←</span> {s.back}
+    </Link>
+  );
 }
 
 export function Layout({ children }: { children: ReactNode }) {
   const matches = useMatches();
-  const initial = pageLang(matches);
-  const [lang, setLang] = useState<Lang>(initial);
+  const page = pageInfo(matches);
+  const [filter, setFilterState] = useState<LangFilter>("all");
+
+  // Applied after hydration so the prerendered HTML matches on first paint.
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (saved === "it" || saved === "en" || saved === "all") setFilterState(saved);
+    } catch {}
+  }, []);
+
+  function setFilter(f: LangFilter) {
+    setFilterState(f);
+    try {
+      localStorage.setItem(STORAGE_KEY, f);
+    } catch {}
+  }
+
+  const lang: Lang = page?.kind === "home" ? (filter === "en" ? "en" : "it") : (page?.lang ?? "it");
   const s = t(lang);
   return (
     <html lang={lang}>
@@ -34,18 +108,21 @@ export function Layout({ children }: { children: ReactNode }) {
         <Links />
       </head>
       <body>
-        <LangContext.Provider value={{ lang, setLang }}>
+        <LangContext.Provider value={{ lang, filter, setFilter }}>
           <header className="site-header">
             <Link to="/" className="site-name">{s.siteName}</Link>
-            <nav className="site-nav">
-              <Link to="/poesie/">{s.poems}</Link>
-              <a href="/feed.xml">{s.feed}</a>
-            </nav>
+            <div className="site-tools">
+              {page?.kind === "doc" ? <BackLink lang={lang} /> : page ? <LangSelector page={page} filter={filter} setFilter={setFilter} lang={lang} /> : null}
+            </div>
           </header>
           <main className="site-main">{children}</main>
           <footer className="site-footer">
             <span>{s.writtenBy} {s.author}</span>
-            <a href="https://github.com/marcocastignoli/blog">{s.source}</a>
+            <nav className="footer-nav">
+              <Link to="/poesie/">{s.poems}</Link>
+              <a href="/feed.xml">{s.feed}</a>
+              <a href="https://github.com/marcocastignoli/blog">{s.source}</a>
+            </nav>
           </footer>
         </LangContext.Provider>
         <ScrollRestoration />

@@ -84,17 +84,19 @@ a:hover {
   letter-spacing: 0.01em;
 }
 
-.site-nav {
+/* Right slot of the header: the language selector on listings, the back link on articles. */
+.site-tools {
   display: flex;
-  gap: 1.25rem;
+  align-items: center;
+  min-height: 1.8rem;
 }
 
-.site-nav a {
+.back-link {
   color: var(--muted);
   text-decoration: none;
 }
 
-.site-nav a:hover {
+.back-link:hover {
   color: var(--fg);
 }
 
@@ -117,29 +119,63 @@ a:hover {
 
 .site-footer a {
   color: var(--muted);
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: var(--fg);
+}
+
+.footer-nav {
+  display: flex;
+  gap: 1.25rem;
 }
 
 /* Home and category listings */
-.lang-filter {
+.lang-filter,
+.category-filter {
   display: flex;
-  gap: 0.5rem;
-  margin: 0.5rem 0 2rem;
+  flex-wrap: wrap;
+  gap: 0.4rem;
   font-family: var(--font-sans);
-  font-size: 0.85rem;
+  font-size: 0.8rem;
 }
 
-.lang-filter button {
+.lang-filter button,
+.category-filter button {
   font: inherit;
-  padding: 0.3rem 0.8rem;
+  padding: 0.2rem 0.7rem;
   border: 1px solid var(--rule);
   border-radius: 999px;
   background: transparent;
   color: var(--muted);
   cursor: pointer;
+  line-height: 1.4;
 }
 
-.lang-filter button[aria-pressed="true"] {
+.lang-filter button[aria-pressed="true"],
+.category-filter button[aria-pressed="true"] {
   border-color: var(--fg);
+  color: var(--fg);
+}
+
+.category-filter {
+  margin: 0.5rem 0 2rem;
+}
+
+.category-filter button:not(:first-child)::before {
+  content: "";
+  display: inline-block;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  background: var(--accent);
+  margin-right: 0.45em;
+  vertical-align: 0.05em;
+}
+
+.category-filter button[aria-pressed="true"] {
+  border-color: var(--accent);
   color: var(--fg);
 }
 
@@ -180,6 +216,20 @@ a:hover {
 .post-item-category {
   color: var(--accent);
   text-decoration: none;
+}
+
+.post-item.pinned {
+  padding-left: 1rem;
+  border-left: 3px solid var(--accent);
+}
+
+.pin-mark {
+  color: var(--accent);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  margin-right: 0.35rem;
 }
 
 .lang-mark {
@@ -364,5 +414,5 @@ a:hover {
 @media (max-width: 40rem) {
   :root { --step: 1.05rem; }
   .post-title { font-size: 1.7rem; }
-  .site-header { flex-direction: column; gap: 0.4rem; }
+  .site-header { flex-direction: column; align-items: flex-start; gap: 0.6rem; }
 }

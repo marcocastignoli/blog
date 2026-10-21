@@ -1,12 +1,12 @@
-import { useEffect, useState } from "react";
-import { getCategories, getPosts, toSummary } from "../content.server";
+import { useState } from "react";
+import { forListing, getCategories, getPosts } from "../content.server";
 import { SITE_URL } from "../site";
 import { t, type Lang } from "../i18n";
 import { useLang } from "../root";
 import { PostList } from "../components/PostList";
 
 export function loader() {
-  return { lang: "it" as Lang, posts: getPosts().map(toSummary), categories: getCategories() };
+  return { kind: "home" as const, lang: "it" as Lang, posts: forListing(getPosts()), categories: getCategories() };
 }
 
 export function meta() {
@@ -17,49 +17,33 @@ export function meta() {
   ];
 }
 
-type Filter = "all" | Lang;
-const STORAGE_KEY = "castignoli-lang-filter";
-
 export default function Home({ loaderData }: { loaderData: ReturnType<typeof loader> }) {
-  const { setLang } = useLang();
-  const [filter, setFilter] = useState<Filter>("all");
+  // The language filter lives in the header (root.tsx); the category filter is local to the home.
+  const { lang, filter } = useLang();
+  const [category, setCategory] = useState<string>("all");
+  const s = t(lang);
 
-  // The browser remembers the filter. Applied after hydration so the prerendered HTML matches.
-  useEffect(() => {
-    try {
-      const saved = localStorage.getItem(STORAGE_KEY);
-      if (saved === "it" || saved === "en" || saved === "all") setFilter(saved);
-    } catch {}
-  }, []);
-
-  const uiLang: Lang = filter === "en" ? "en" : "it";
-  useEffect(() => setLang(uiLang), [uiLang, setLang]);
-
-  function choose(f: Filter) {
-    setFilter(f);
-    try {
-      localStorage.setItem(STORAGE_KEY, f);
-    } catch {}
-  }
-
-  const s = t(uiLang);
-  const posts = filter === "all" ? loaderData.posts : loaderData.posts.filter((p) => p.lang === filter);
-  const options: { value: Filter; label: string }[] = [
-    { value: "all", label: s.all },
-    { value: "it", label: "Italiano" },
-    { value: "en", label: "English" },
-  ];
+  const posts = loaderData.posts.filter((p) => (filter === "all" || p.lang === filter) && (category === "all" || p.category === category));
 
   return (
     <div className="home">
-      <div className="lang-filter" role="group" aria-label={s.filterLabel}>
-        {options.map((o) => (
-          <button key={o.value} type="button" aria-pressed={filter === o.value} onClick={() => choose(o.value)}>
-            {o.label}
+      <div className="category-filter" role="group" aria-label={s.categoryFilterLabel}>
+        <button type="button" aria-pressed={category === "all"} onClick={() => setCategory("all")}>
+          {s.allCategories}
+        </button>
+        {loaderData.categories.map((c) => (
+          <button
+            key={c.id}
+            type="button"
+            aria-pressed={category === c.id}
+            style={{ "--accent": c.accent } as React.CSSProperties}
+            onClick={() => setCategory(category === c.id ? "all" : c.id)}
+          >
+            {c.name[lang]}
           </button>
         ))}
       </div>
-      <PostList posts={posts} categories={loaderData.categories} lang={uiLang} />
+      <PostList posts={posts} categories={loaderData.categories} lang={lang} />
     </div>
   );
 }
