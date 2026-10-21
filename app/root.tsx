@@ -16,7 +16,7 @@ export interface PageInfo {
 }
 
 // The language of the page comes from the matched route's loader data. On the home page the
-// interface follows the language filter, which the browser remembers.
+// interface follows the highlighted language, which the browser remembers.
 const LangContext = createContext<{ lang: Lang; filter: LangFilter; setFilter: (f: LangFilter) => void }>({
   lang: "it",
   filter: "all",
@@ -35,12 +35,14 @@ function pageInfo(matches: ReturnType<typeof useMatches>): PageInfo | undefined 
 function LangSelector({ page, filter, setFilter, lang }: { page: PageInfo; filter: LangFilter; setFilter: (f: LangFilter) => void; lang: Lang }) {
   const navigate = useNavigate();
   const s = t(lang);
-  const options: { value: LangFilter; label: string }[] = [
-    { value: "all", label: s.all },
+  const options: { value: Lang; label: string }[] = [
     { value: "it", label: "Italiano" },
     { value: "en", label: "English" },
   ];
-  function choose(f: LangFilter) {
+  // Every post stays listed: the chosen language is highlighted, the other one is dimmed.
+  // Choosing the highlighted language again clears the choice.
+  function choose(l: Lang) {
+    const f: LangFilter = filter === l ? "all" : l;
     setFilter(f);
     // A category index exists in both languages: follow the chosen one.
     if (page.kind === "category" && page.category && f !== "all" && f !== page.lang) navigate(`/${page.category.slug[f]}/`);

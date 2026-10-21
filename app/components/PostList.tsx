@@ -2,7 +2,7 @@ import { Link } from "react-router";
 import type { Category, Summary } from "../site";
 import { formatDate, t, type Lang } from "../i18n";
 
-export function PostList({ posts, categories, lang }: { posts: Summary[]; categories: Category[]; lang: Lang }) {
+export function PostList({ posts, categories, lang, highlight = "all" }: { posts: Summary[]; categories: Category[]; lang: Lang; highlight?: "all" | Lang }) {
   const s = t(lang);
   if (posts.length === 0) return <p className="post-list-empty">{s.noPosts}</p>;
   return (
@@ -10,7 +10,7 @@ export function PostList({ posts, categories, lang }: { posts: Summary[]; catego
       {posts.map((p) => {
         const c = categories.find((x) => x.id === p.category);
         return (
-          <li key={p.id} className={p.pinned ? "post-item pinned" : "post-item"} style={c ? ({ "--accent": c.accent } as React.CSSProperties) : undefined}>
+          <li key={p.id} className={["post-item", p.pinned && "pinned", highlight !== "all" && p.lang !== highlight && "dimmed"].filter(Boolean).join(" ")} style={c ? ({ "--accent": c.accent } as React.CSSProperties) : undefined}>
             <div className="post-item-meta">
               {p.pinned && <span className="pin-mark">{s.pinned}</span>}
               <time dateTime={p.date}>{formatDate(p.date, lang)}</time>

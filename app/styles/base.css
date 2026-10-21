@@ -218,6 +218,17 @@ a:hover {
   text-decoration: none;
 }
 
+/* Posts in the language that is not highlighted fade back but stay readable. */
+.post-item.dimmed {
+  opacity: 0.4;
+  transition: opacity 0.2s;
+}
+
+.post-item.dimmed:hover,
+.post-item.dimmed:focus-within {
+  opacity: 1;
+}
+
 .post-item.pinned {
   padding-left: 1rem;
   border-left: 3px solid var(--accent);

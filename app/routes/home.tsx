@@ -18,12 +18,12 @@ export function meta() {
 }
 
 export default function Home({ loaderData }: { loaderData: ReturnType<typeof loader> }) {
-  // The language filter lives in the header (root.tsx); the category filter is local to the home.
+  // The language highlight lives in the header (root.tsx); the category filter is local to the home.
   const { lang, filter } = useLang();
   const [category, setCategory] = useState<string>("all");
   const s = t(lang);
 
-  const posts = loaderData.posts.filter((p) => (filter === "all" || p.lang === filter) && (category === "all" || p.category === category));
+  const posts = category === "all" ? loaderData.posts : loaderData.posts.filter((p) => p.category === category);
 
   return (
     <div className="home">
@@ -43,7 +43,7 @@ export default function Home({ loaderData }: { loaderData: ReturnType<typeof loa
           </button>
         ))}
       </div>
-      <PostList posts={posts} categories={loaderData.categories} lang={lang} />
+      <PostList posts={posts} categories={loaderData.categories} lang={lang} highlight={filter} />
     </div>
   );
 }

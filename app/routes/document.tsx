@@ -83,13 +83,12 @@ export default function Document({ loaderData }: { loaderData: LoaderData }) {
 
 function CategoryIndex({ data }: { data: CategoryData }) {
   const { filter } = useLang();
-  const posts = filter === "all" ? data.posts : data.posts.filter((p) => p.lang === filter);
   return (
     <div className="home">
       <h1 className="category-title" style={{ "--accent": data.category.accent } as React.CSSProperties}>
         {data.category.name[data.lang]}
       </h1>
-      <PostList posts={posts} categories={data.categories} lang={data.lang} />
+      <PostList posts={data.posts} categories={data.categories} lang={data.lang} highlight={filter} />
     </div>
   );
 }
