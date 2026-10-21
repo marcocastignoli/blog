@@ -24,6 +24,17 @@ export function arrange(posts: Summary[], highlight: "all" | Lang): Summary[] {
   return out.sort((a, b) => Number(b.pinned) - Number(a.pinned) || b.date.localeCompare(a.date));
 }
 
+/** A small push-pin, in the accent colour, with the label for assistive technology. */
+function PinIcon({ label }: { label: string }) {
+  return (
+    <span className="pin-mark" role="img" aria-label={label} title={label}>
+      <svg viewBox="0 0 16 16" width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false">
+        <path d="M5 1h6v1.5H5z M6.5 2.5h3V7l2.5 2v1.5H4V9l2.5-2z M7.5 10.5h1V15l-.5 1-.5-1z" />
+      </svg>
+    </span>
+  );
+}
+
 export function PostList({ posts: all, categories, lang, highlight = "all" }: { posts: Summary[]; categories: Category[]; lang: Lang; highlight?: "all" | Lang }) {
   const s = t(lang);
   const posts = arrange(all, highlight);
@@ -35,7 +46,7 @@ export function PostList({ posts: all, categories, lang, highlight = "all" }: { 
         return (
           <li key={p.id} className={["post-item", p.pinned && "pinned", highlight !== "all" && p.lang !== highlight && "dimmed"].filter(Boolean).join(" ")} style={c ? ({ "--accent": c.accent } as React.CSSProperties) : undefined}>
             <div className="post-item-meta">
-              {p.pinned && <span className="pin-mark">{s.pinned}</span>}
+              {p.pinned && <PinIcon label={s.pinned} />}
               {p.kind === "post" && <time dateTime={p.date}>{formatDate(p.date, lang)}</time>}
               {p.kind === "post" && c && (
                 <>

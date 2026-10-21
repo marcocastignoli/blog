@@ -235,12 +235,11 @@ a:hover {
 }
 
 .pin-mark {
+  display: inline-flex;
   color: var(--accent);
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  font-size: 0.7rem;
-  margin-right: 0.35rem;
+  font-size: 0.95rem;
+  margin-right: 0.3rem;
+  transform: rotate(30deg);
 }
 
 .lang-mark {
