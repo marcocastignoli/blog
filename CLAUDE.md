@@ -19,6 +19,26 @@ Marco Castignoli's personal blog: Markdown content in `content/`, a React Router
 - `scripts/export.mjs` and `scripts/convert.mjs`, `export/`: the one-time import of the existing articles and its backup. Not part of the build; do not edit `export/`.
 - `build/`: the generated site (ignored by git). `.react-router/`: generated types (ignored).
 
+## Publishing a post
+
+1. Create `content/posts/YYYY-MM-DD-slug.md` with this front matter and the Markdown body below it:
+
+   ```markdown
+   ---
+   title: "Titolo"
+   date: "2026-10-21T10:00:00Z"
+   lang: "it"
+   category: "tecnologia"
+   ---
+   ```
+
+   The URL becomes `/<category slug in lang>/slug/` (`/tecnologia/slug/` for Italian, `/technology/slug/` for English). Set `path` only to force another URL. Add `pinned: true`, `theme`, `translationKey` or `style` when wanted (see the table below).
+2. Put images and videos under `public/wp-content/uploads/YYYY/MM/` and link them root-relative: `![alt](/wp-content/uploads/2026/10/photo.jpg)`. A `<video controls src="...">` or an `<iframe>` embed can be written as raw HTML in the body.
+3. Check it with `pnpm dev` (http://localhost:5173/) or `pnpm build && pnpm preview`. The build fails on a duplicate path.
+4. Commit on a branch, push, open a pull request, merge. The workflow deploys `main` within about a minute; the site is at https://www.castignoli.it.
+
+A translation is a second file with the other `lang`, its own `title` and the same `translationKey`; both posts then link to each other and the listings show one of them when a language is highlighted. A standalone page goes in `content/pages/` and appears on the home only when pinned.
+
 ## Front matter
 
 | Field | Meaning |
